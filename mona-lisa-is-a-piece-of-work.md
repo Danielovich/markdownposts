@@ -1,9 +1,9 @@
-[//]: # "title: hugga bugga ulla johnson"
+[//]: # "title: mona lisa is a piece of work"
 [//]: # "slug: mona-lisa-is-a-piece-of-work"
 [//]: # "pubDate: 12/15/2023 11:01 AM"
 [//]: # "lastModified: 12/15/2023 1:07 PM"
-[//]: # "excerpt: This is really interesting stuff!!!"
-[//]: # "categories: code, acr, azure, easypeasy, iaas"
+[//]: # "excerpt: Uhh yes she is one pretty lady"
+[//]: # "categories: art, paris, mona"
 [//]: # "isPublished: true"
 
 I use the command line tools Azure CLI, inside PowerShell.

@@ -1,3 +1,11 @@
+[//]: # "title: Estimering."
+[//]: # "slug: estimering"
+[//]: # "pubDate: 20/12/2023 12:01"
+[//]: # "lastModified: 21/12/2023 13:07"
+[//]: # "excerpt: "
+[//]: # "categories: organisation"
+[//]: # "isPublished: false"
+
 # Estimering
 
 > Published on Dec 20, 2021

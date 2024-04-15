@@ -1,6 +1,10 @@
-# Tankeland er fantastisk trygt. Visionen i Produkt- og Softwareudvikling
-
-> Published on Dec 5, 2021
+[//]: # "title: Tankeland er fantastisk trygt. Visionen i Produkt- og Softwareudvikling."
+[//]: # "slug: tankeland-er-fantastisk-trygt-visionen-i-produkt-og-softwareudvikling"
+[//]: # "pubDate: 5/12/2021 12:01"
+[//]: # "lastModified: 6/12/2021 13:07"
+[//]: # "excerpt: "
+[//]: # "categories: organisation"
+[//]: # "isPublished: true"
 
 Gode og positive udsagn givet af velmenende kolleger, chefer, medarbejdere, venner,
 samarbejdspartnere, der alle vil jer eller sig selv det bedste. 

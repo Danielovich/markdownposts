@@ -1,6 +1,11 @@
-# Du kan ikke skalere agile. Et par af SAFe's misforståelser.
+[//]: # "title: Du kan ikke skalere agile. Et par af SAFe's misforståelser."
+[//]: # "slug: du-kan-ikke-skalere-agile-safes-misforstaelser"
+[//]: # "pubDate: 24/1/2024 12:01"
+[//]: # "lastModified: 25/1/2024 13:07"
+[//]: # "excerpt: "
+[//]: # "categories: proces"
+[//]: # "isPublished: true"
 
-> Published on Jun 4, 2023
 
 Det er en udbredt misforståelse, at man kan skalere agile. SAFe, et populært produkt i denne sammenhæng, falder ofte i denne kategori. Men at dvæle ved dette postulat er unødvendigt. Forståelsen af agile, som det er beskrevet i det agile manifest, er afgørende her. Det handler om en grundlæggende indsigt og accept af agilitet, snarere end en dogmatisk tilgang.
 

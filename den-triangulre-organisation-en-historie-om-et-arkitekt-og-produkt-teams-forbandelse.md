@@ -1,6 +1,10 @@
-# Den triangulære organisation - en historie om et arkitekt og produkt teams organisatoriske forbandelse.
-
-> Published on Jan 23, 2024
+[//]: # "title: Den triangulære organisation - en historie om et arkitekt og produkt teams organisatoriske forbandelse."
+[//]: # "slug: den-triangulre-organisation-en-historie-om-et-arkitekt-og-produkt-teams-forbandelse"
+[//]: # "pubDate: 23/1/2024 12:01"
+[//]: # "lastModified: 24/1/2024 13:07"
+[//]: # "excerpt: "
+[//]: # "categories: organisation, ledelse"
+[//]: # "isPublished: true"
 
 I forlængelse af [Switchboard Managers](https://zerfro.mataroa.blog/blog/switchboard-managers-et-fortidens-levn/), vil jeg forsøge at dele lidt ud af nogle erfaringer om diverse organisationsdesign.
 

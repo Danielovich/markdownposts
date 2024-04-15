@@ -1,6 +1,11 @@
-# Side-effekten af et dedikeret cloud/devops/platform team.
+[//]: # "title: Side-effekten af et dedikeret cloud/devops/platform team."
+[//]: # "slug: side-effekten-af-et-dedikeret-clouddevopsplatform-team"
+[//]: # "pubDate: 18/1/2024 12:01"
+[//]: # "lastModified: 19/1/2024 13:07"
+[//]: # "excerpt: "
+[//]: # "categories: organisation"
+[//]: # "isPublished: true"
 
-> Published on Jan 18, 2024
 
 - software/produkt/feature/* team,
 - cloud/devops/platform/* team,

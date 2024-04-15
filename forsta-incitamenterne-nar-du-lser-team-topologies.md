@@ -1,6 +1,11 @@
-# Forstå incitamenterne når du læser team topologies.
+[//]: # "title: Forstå incitamenterne når du læser team topologies."
+[//]: # "slug: forsta-incitamenterne-nar-du-lser-team-topologies"
+[//]: # "pubDate: 13/12/2023 12:01"
+[//]: # "lastModified: 21/12/2023 13:07"
+[//]: # "excerpt: "
+[//]: # "categories: organisation"
+[//]: # "isPublished: true"
 
-> Published on Feb 6, 2024
 
 Mit tanker om bogen bliver muligvis lige så rodet som selve bogen. Den er svær at sætte ord på fordi den i flæng, danser rundt om alle muligt emner.
 

@@ -1,6 +1,10 @@
-# Kan du estimere kreativitet, så vinder du
-
-> Published on Jan 12, 2024
+[//]: # "title:  Kan du estimere kreativitet, så vinder du"
+[//]: # "slug: kan-du-estimere-kreativitet-sa-vinder-du"
+[//]: # "pubDate: 12/1/2024 12:01"
+[//]: # "lastModified: 13/1/2023 13:07"
+[//]: # "excerpt: "
+[//]: # "categories: proces"
+[//]: # "isPublished: true"
 
 En af de udfordringer, vi ofte møder, når vi arbejder med software- og produktudvikling, er estimering af samme. Der opstår i udviklingsforløbet, helt forståeligt, spørgsmål omkring, hvorfor vi ikke med større sandsynlighed kan svare på, hvor lang tid en opgave tager at udføre.
 

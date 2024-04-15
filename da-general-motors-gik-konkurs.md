@@ -1,6 +1,10 @@
-# Da General Motors gik konkurs
-
-> Published on Dec 19, 2021
+[//]: # "title:  Da General Motors gik konkurs."
+[//]: # "slug: da-general-motors-gik-konkurs"
+[//]: # "pubDate: 19/12/2021 12:01"
+[//]: # "lastModified: 14/12/2023 13:07"
+[//]: # "excerpt: "
+[//]: # "categories: organisation, ledelse"
+[//]: # "isPublished: true"
 
 General Motors blev engang betragtet som verdens bedst ledede og mest succesfulde firma. Men mellem 1980 og 2009 faldt GM's markedsandel i USA fra 46 til 20 procent, og i 2009 gik firmaet konkurs. 
 

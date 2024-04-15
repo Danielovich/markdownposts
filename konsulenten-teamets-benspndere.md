@@ -1,6 +1,11 @@
-# Tornado Konsulenten
+[//]: # "title: Tornado Konsulenten"
+[//]: # "slug: konsulenten-teamets-benspndere"
+[//]: # "pubDate: 13/1/2024 12:01"
+[//]: # "lastModified: 14/1/2023 13:07"
+[//]: # "excerpt: "
+[//]: # "categories: proces"
+[//]: # "isPublished: true"
 
-> Published on Dec 13, 2021
 
 #### opdateres løbende med tanker og idéer
 

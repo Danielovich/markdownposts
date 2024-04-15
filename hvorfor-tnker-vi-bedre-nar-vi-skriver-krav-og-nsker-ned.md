@@ -1,4 +1,10 @@
-# Hvorfor tænker vi bedre, når vi skriver (krav og ønsker ned)?
+[//]: # "title:  Hvorfor tænker vi bedre, når vi skriver (krav og ønsker ned)?"
+[//]: # "slug: hvorfor-tnker-vi-bedre-nar-vi-skriver-krav-og-nsker-ned"
+[//]: # "pubDate: 5/1/2024 12:01"
+[//]: # "lastModified: 6/1/2023 13:07"
+[//]: # "excerpt: "
+[//]: # "categories: proces"
+[//]: # "isPublished: true"
 
 > Published on Jan 5, 2024
 

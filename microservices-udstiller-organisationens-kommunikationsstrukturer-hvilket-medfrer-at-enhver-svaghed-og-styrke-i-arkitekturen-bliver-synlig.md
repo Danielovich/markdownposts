@@ -1,6 +1,10 @@
-# Microservices udstiller organisationens kommunikationsstrukturer, hvilket medfører, at enhver svaghed og styrke i den, bliver synlig.
-
-> Published on Feb 11, 2024
+[//]: # "title: Microservices udstiller organisationens kommunikationsstrukturer, hvilket medfører, at enhver svaghed og styrke i den, bliver synlig."
+[//]: # "slug: microservices-udstiller-organisationens-kommunikationsstrukturer-hvilket-medfrer-at-enhver-svaghed-og-styrke-i-arkitekturen-bliver-synlig"
+[//]: # "pubDate: 11/2/2024 12:01"
+[//]: # "lastModified: 13/2/2023 13:07"
+[//]: # "excerpt: "
+[//]: # "categories: software"
+[//]: # "isPublished: true"
 
 Microservices er en ubarmhjertig arkitektur. 
 

@@ -1,6 +1,11 @@
-# Switchboard Managers - et fortidens levn.
+[//]: # "title:  Switchboard Managers - et fortidens levn."
+[//]: # "slug: switchboard-managers-et-fortidens-levn"
+[//]: # "pubDate: 17/1/2024 12:01"
+[//]: # "lastModified: 18/1/2024 13:07"
+[//]: # "excerpt: "
+[//]: # "categories: organisation"
+[//]: # "isPublished: true"
 
-> Published on Jan 17, 2024
 
 Der er et levn, som vel sagtens har sin oprindelse i tiden tilbage fra Napoleons tid. Det handler om, hvordan en organisations kommunikation flyder fra bund til top og fra top til bund. Oprindeligt havde ledere en god grund til at agere således, fordi kommunikation var dyrt og besværligt.
 

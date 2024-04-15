@@ -1,3 +1,11 @@
+[//]: # "title: Få jeres idéer og antagelser om dem ud af tankeland og ind i den virkelige verden."
+[//]: # "slug: fa-jeres-meninger-og-antagelser-ud-af-tankeland-og-ind-i-den-virkelige-verden"
+[//]: # "pubDate: 13/12/2023 12:01"
+[//]: # "lastModified: 21/12/2023 13:07"
+[//]: # "excerpt: "
+[//]: # "categories: organisation"
+[//]: # "isPublished: true"
+
 # Få jeres idéer og antagelser om dem ud af tankeland og ind i den virkelige verden.
 
 > Published on Dec 13, 2021

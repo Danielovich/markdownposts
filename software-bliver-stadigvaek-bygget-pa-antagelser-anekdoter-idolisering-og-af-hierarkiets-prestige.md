@@ -1,6 +1,11 @@
-# Software bliver stadigvæk bygget på antagelser, anekdoter, idolisering og af hierarkiets prestige.
+[//]: # "title: Software bliver stadigvæk bygget på antagelser, anekdoter, idolisering og af hierarkiets prestige."
+[//]: # "slug: software-bliver-stadigvaek-bygget-pa-antagelser-anekdoter-idolisering-og-af-hierarkiets-prestige"
+[//]: # "pubDate: 31/1/2024 12:01"
+[//]: # "lastModified: 1/2/2024 13:07"
+[//]: # "excerpt: "
+[//]: # "categories: organisation"
+[//]: # "isPublished: true"
 
-> Published on Jan 31, 2024
 
 > software: en potentiel mulighed for en virksomhed eller organisation for at understøtte målsætningen omkring enten at innovere, øge den forretningsmæssige økonomiske værdi eller på anden vis være bedre stillet ift. effektivitet og produktivitet.
 

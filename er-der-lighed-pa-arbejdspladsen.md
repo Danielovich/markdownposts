@@ -1,4 +1,10 @@
-# Lighed på arbejdspladsen.
+[//]: # "title: Lighed på arbejdspladsen."
+[//]: # "slug: er-der-lighed-pa-arbejdspladsen"
+[//]: # "pubDate: 12/3/2024 12:01"
+[//]: # "lastModified: 13/3/2024 13:07"
+[//]: # "excerpt: "
+[//]: # "categories: organisation"
+[//]: # "isPublished: true"
 
 > Published on Mar 12, 2024
 

@@ -1,6 +1,11 @@
-# Polpetta compileren på stranden i Mondello.
+[//]: # "title: Polpetta compileren på stranden i Mondello."
+[//]: # "slug: polpetta-compileren-pa-stranden-i-mondello"
+[//]: # "pubDate: 2/4/2024 12:01"
+[//]: # "lastModified: 3/4/2024 13:07"
+[//]: # "excerpt: "
+[//]: # "categories: software"
+[//]: # "isPublished: true"
 
-> Published on Apr 2, 2024
 
 Vi var ankommet til Palermo om aftenen. Det var sensommer. Det dunkle orange gadelys drev af murene, de sprækkede brune og grå facader, udhakket og solmørnede, fortalte hemmeligheder fra de sidste århundreder. Varmen imellem dem var intens. Lige fra arbejdsfolkets stemme til kvindernes diskussioner på de små balkoner. Der hænger altid tingeltangel fra de skide vinduer, tænkte jeg, og den stakkels jomfru syntes ikke at kunne få fred fra en andens jomfrus øjne.
 

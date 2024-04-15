@@ -2,8 +2,8 @@
 [//]: # "slug: conway-om-og-om-igen"
 [//]: # "pubDate: 18/12/2021 12:01"
 [//]: # "lastModified: 14/12/2023 13:07"
-[//]: # "excerpt: This is really interesting stuff!!!"
-[//]: # "categories: code, acr, azure, easypeasy, iaas"
+[//]: # "excerpt: "
+[//]: # "categories: organisation, ledelse"
 [//]: # "isPublished: true"
 
 

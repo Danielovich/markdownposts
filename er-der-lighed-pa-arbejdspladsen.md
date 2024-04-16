@@ -6,8 +6,6 @@
 [//]: # "categories: organisation"
 [//]: # "isPublished: true"
 
-> Published on Mar 12, 2024
-
 Alan Kay er citeret for at have sagt: *"Pop culture is all about identity and feeling like you’re participating. It has nothing to do with cooperation, the past or the future—it’s living in the present. I think the same is true for most people who write code for money. They have no idea where their culture came from—and the Internet was done so well that most people think of it as a natural resource like the Pacific Ocean, rather than something that was man-made."*
 
 Se bort fra Alan Kay's kommentar omkring det at skrive kode. Tænk i et større perspektiv.

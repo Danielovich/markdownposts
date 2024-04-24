@@ -1,4 +1,4 @@
-[//]: # "title: Alle børnene legede med stavekontrol. Undtagen Daniel, han fik ChatGPT til at "le" af Jaro, Hamming, Damerau og Levenshtein."
+[//]: # "title: Alle børnene legede med stavekontrol. Undtagen Daniel, han fik ChatGPT til at le af Jaro, Hamming, Damerau og Levenshtein."
 [//]: # "slug: alle-bornene-legede-med-stavekontrol"
 [//]: # "pubDate: 24/04/2024 12:01"
 [//]: # "lastModified: 24/04/2023 13:07"
@@ -29,15 +29,15 @@ Vi ved begge godt (medmindre vi lider af ordblindhed), hvad det korrekte ord er;
 
 Vi er ude over, at ordet er korrekt. Så når computeren slår op i ordbogen, hvor alle danske ord er stavet korrekt, finder den ikke noget. Øv! Så langt, så godt, så vi skal have fat i en eller anden algoritme for, hvordan ordet kan "transformeres" indtil noget, vi kan genkende.
 
-Efter et par omgange med vores favoritsøgemaskine kan vi blandt andet finde en fremragende post af Peter Norvig (https://norvig.com/spell-correct.html), men vi finder også hurtigt ud af, at for at kunne arbejde med vores forkerte sekvens "sykeljælm" skal vi over i noget "distance ensarthed" i forhold til, hvor meget en sekvens minder om en anden sekvens. Jeg kunne godt have sat mig ned og brugt en masse tid på at gøre som Peter Norvig, men jeg ville aldrig have nået et lignende resultat af den simple grund, at min viden omkring emnet er for lille.
+Efter et par omgange med vores favoritsøgemaskine kan vi blandt andet finde en fremragende post af [Peter Norvig](https://norvig.com/spell-correct.html), men vi finder også hurtigt ud af, at for at kunne arbejde med vores forkerte sekvens "sykeljælm" skal vi over i noget "distance ensarthed" i forhold til, hvor meget en sekvens minder om en anden sekvens. Jeg kunne godt have sat mig ned og brugt en masse tid på at gøre som Peter Norvig, men jeg ville aldrig have nået et lignende resultat af den simple grund, at min viden omkring emnet er for lille.
 
 Jeg brugte rundt regnet et par dage på at læse op på, hvordan de mest gængse "distance ensarthed" algoritmer fungerer, og det er som alt muligt andet i programmering: trade-offs omkring performance, kompleksitet og tid. Jeg kan efterhånden forstå, at det på ingen måde er nemt eller ukompliceret at bygge software, som kan udøve en stavekontrol, som du for eksempel finder i Word.
 
-Wikipedia siger om "Edit Distance" (https://en.wikipedia.org/wiki/Edit_distance): *"In computational linguistics and computer science, edit distance is a string metric, i.e., a way of quantifying how dissimilar two strings (e.g., words) are to one another, that is measured by counting the minimum number of operations required to transform one string into the other."*
+Wikipedia siger om ["Edit Distance"](https://en.wikipedia.org/wiki/Edit_distance): *"In computational linguistics and computer science, edit distance is a string metric, i.e., a way of quantifying how dissimilar two strings (e.g., words) are to one another, that is measured by counting the minimum number of operations required to transform one string into the other."*
 
 Jeg bider her mærke i *"measured by counting the minimum number of operations"*. Hvis vi bruger det i vores eget eksempel her, kan vi måske finde ud af, hvor meget forskel der er på "sykeljælm" og "cykelhjelm".
 
-En tilsyneladende velkendt "edit distance" algoritme er Levenshteins, som i helt korte træk lyder: *"The Levenshtein distance between two words is the minimum number of single-character edits (insertions, deletions, or substitutions) required to change one word into the other."*
+En tilsyneladende velkendt "edit distance" algoritme er [Levenshteins](https://en.wikipedia.org/wiki/Levenshtein_distance), som i helt korte træk lyder: *"The Levenshtein distance between two words is the minimum number of single-character edits (insertions, deletions, or substitutions) required to change one word into the other."*
 
 Læg mærke til, hvordan og ud fra hvad algoritmen arbejder: (insertions, deletions, or substitutions).
 
@@ -53,13 +53,13 @@ Input: sykeljælm. Test imod: cykelhjelm.
 
 Det er som sagt tre ændringer.
 
-Jeg forsøgte initielt også med Hamming-distance algoritmen men opdagede hurtigt, at den forventer, at de to sekvenser er af samme længde, hvilket vi ikke kan garantere.
+Jeg forsøgte initielt også med [Hamming-distance algoritmen](https://en.wikipedia.org/wiki/Hamming_distance) men opdagede hurtigt, at den forventer, at de to sekvenser er af samme længde, hvilket vi ikke kan garantere.
 
 Der er en enkelt ting ved den oprindelige Levenshtein distance algoritme, som vi potentielt godt kunne tage højde for, og det er det, der kaldes "transpositions". Det betyder, at algoritmen også forsøger at bytte om på hver karakter i en given sekvens. Wikipedia beskriver kompleksiteten heraf således: *"Adding transpositions adds significant complexity. The difference between the two algorithms consists in that the optimal string alignment algorithm computes the number of edit operations needed to make the strings equal under the condition that no substring is edited more than once, whereas the second one presents no such restriction."*
 
 Frederick J. Damerau bliver beskrevet på Wikipedia: *"In his seminal paper, Damerau stated that in an investigation of spelling errors for an information-retrieval system, more than 80% were a result of a single error of one of the four types."*
 
-Derfor findes der en Damerau–Levenshtein distance algoritme, som er en udvidelse af den oprindelige Levenshtein distance algoritme, men som også tager højde for "transpositions". Initiativt ville jeg helst lave en løsning, der kunne stave bedst muligt på baggrund af betydningsbærende danske ord, altså ikke ord som f.eks. "hvad", "hvem", "stop" eller "kat", men mere ord som "kokkeskole", "psykolog", "lærerinde". Jeg har dog ikke testet simple ord med nogen af disse algoritmer.
+Derfor findes der en [Damerau–Levenshtein distance algoritme](https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance), som er en udvidelse af den oprindelige Levenshtein distance algoritme, men som også tager højde for "transpositions". Initiativt ville jeg helst lave en løsning, der kunne stave bedst muligt på baggrund af betydningsbærende danske ord, altså ikke ord som f.eks. "hvad", "hvem", "stop" eller "kat", men mere ord som "kokkeskole", "psykolog", "lærerinde". Jeg har dog ikke testet simple ord med nogen af disse algoritmer.
 
 Vores eksempel med "sykeljælm" og "cykelhjelm" ændrer ikke ved antallet af ændringer. Det er stadig 3 ved brugen af Damerau–Levenshtein.
 
@@ -89,7 +89,7 @@ I begge tilfælde, med hver af vores valgte algoritmer, er resultatet 1.
 
 Hvad nu hvis vi antager et øjeblik, at når resultatet er 1, så forsøger vi at kvalificere vores gæt på baggrund af antallet af korrekte karakterer i sekvensen "sykel" sammenlignet med antallet af karakterer i de sekvenser, som vores valgte algoritme har foreslået.
 
-Så "sykel" vil altså minde mere om "cykel" fordi de to sekvenser deler 4 karakterer. Det er en naiv tilgang og vil ikke fungere særlig godt i praksis, men vi kan altid kassere resultatet, såfremt ensartetheden ikke er over en vis procentdel. Jeg forsøgte også at give resultatet af Levenshtein algoritmen til en Jaro algoritme, men her fik jeg "skel, cykel, sekel" tilbage.
+Så "sykel" vil altså minde mere om "cykel" fordi de to sekvenser deler 4 karakterer. Det er en naiv tilgang og vil ikke fungere særlig godt i praksis, men vi kan altid kassere resultatet, såfremt ensartetheden ikke er over en vis procentdel. Jeg forsøgte også at give resultatet af Levenshtein algoritmen til en [Jaro algoritme](https://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance#Jaro_similarity), men her fik jeg "skel, cykel, sekel" tilbage.
 
 Inden jeg gik i gang med at kigge på udfordringen, vidste jeg godt, at det ikke ville være let at lave. Og jeg er fuldstændig klar over, at jeg kun lige har dyppet min storetå i streng-distance algoritmerne, så min læring har været ret fundamental og relativt ny. Men det er præcis derfor, disse ting er gode og lærerige at begive sig ud i.
 

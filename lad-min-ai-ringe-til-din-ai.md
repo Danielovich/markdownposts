@@ -18,7 +18,7 @@ Det har de fleste naturligvis hverken tid eller mod på. Min ringe formodning m�
 
 Heldigvis findes der mennesker som er klogere end mig og dig, og som har viet dele af deres liv til at studere en vis form for progression, og hvordan vi kommer videre fra et stadie til et andet. Det er f.eks. sådan noget som videnskabskvinder og mænd går op i. Det skal vi andre mindre begavede naturligvis støtte op omkring fordi uden dem var vi mindre end vi er idag.
 
-Bevares, der findes selvfølgelig også masser af pseudo-videnskabsfolk og holdninger fra disse, som er meget nemmere at forstå end det de rigtige vidensskabsfolk kommunikere, fordi pseudo-folket formår at kommunikerer omkring noget komplekst, der er i virkeligheden er endnu mere komplekst end også de forstår. 
+Bevares, der findes selvfølgelig også masser af pseudo-videnskabsfolk og holdninger fra disse, som er meget nemmere at forstå end det de rigtige vidensskabsfolk kommunikere, fordi pseudo-videnskabfolket formår at kommunikerer omkring noget komplekst, der er i virkeligheden er endnu mere komplekst end også de forstår. 
 
 Jeg er ikke engang klog til at være pseudo-videnskabsmand, til tider ikke engang menneskelig, så i må nøjes med min ringe holdning.
 

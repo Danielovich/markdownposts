@@ -1,7 +1,7 @@
-[//]: # "title: Alle børnene legede med stavekontrol. Undtagen Daniel, han fik ChatGPT til at le af Jaro, Hamming, Damerau og Levenshtein."
-[//]: # "slug: alle-bornene-legede-med-stavekontrol"
+[//]: # "title: Stavekontrol er svært. Børnene vil hellere spille. Jaro, Hamming, Damerau og Levenshtein er alle døde."
+[//]: # "slug: stavekontrol-er-svaert"
 [//]: # "pubDate: 24/04/2024 12:01"
-[//]: # "lastModified: 24/04/2023 13:07"
+[//]: # "lastModified: 25/04/2023 08:46"
 [//]: # "excerpt: "
 [//]: # "categories: software"
 [//]: # "isPublished: true"
@@ -13,7 +13,7 @@ I et forsøg på at afhjælpe en ung drengs udfordringer med at stave, tænkte j
 
 De forstår – ligesom størstedelen af menneskeheden – ikke, hvorfor det skal være så svært at programmere et spil eller en bot, der kan spille WoW for dem, så de kan læne sig tilbage og senere nyde profiten af deres profilsignifikans – og også købe de sko og biler, de ser på TikTok og hører om i raptekster fra Biggie Smalls eller bare fra TV2s Fantastiske Toyota.
 
-Ak, der er meget at forstå.
+Ak, der er meget at forstå hvis man tror noget .
 
 De fleste af os tager vel for givet, hvilken hjælp vi egentlig får, når vores computer udøver stavekontrol for os. Hvordan kan det gå til, at en computer forstår, at når vi forsøger at stave til "cykelhjelm", men i stedet taster "cykelhjælm", at noget inden i maskinen "forstår", at "æ" skal være et "e".
 
@@ -29,7 +29,7 @@ Vi ved begge godt (medmindre vi lider af ordblindhed), hvad det korrekte ord er;
 
 Vi er ude over, at ordet er korrekt. Så når computeren slår op i ordbogen, hvor alle danske ord er stavet korrekt, finder den ikke noget. Øv! Så langt, så godt, så vi skal have fat i en eller anden algoritme for, hvordan ordet kan "transformeres" indtil noget, vi kan genkende.
 
-Efter et par omgange med vores favoritsøgemaskine kan vi blandt andet finde en fremragende post af [Peter Norvig](https://norvig.com/spell-correct.html), men vi finder også hurtigt ud af, at for at kunne arbejde med vores forkerte sekvens "sykeljælm" skal vi over i noget "distance ensarthed" i forhold til, hvor meget en sekvens minder om en anden sekvens. Jeg kunne godt have sat mig ned og brugt en masse tid på at gøre som Peter Norvig, men jeg ville aldrig have nået et lignende resultat af den simple grund, at min viden omkring emnet er for lille.
+Efter et par omgange med vores favoritsøgemaskine kan vi blandt andet finde en fremragende post af [Peter Norvig](https://norvig.com/spell-correct.html), men vi finder også hurtigt ud af, at for at kunne arbejde med vores forkerte sekvens "sykeljælm" skal vi over i noget "distance ensarthed" i forhold til, hvor meget en sekvens minder om en anden sekvens. Jeg kunne godt have sat mig ned og brugt en masse tid på at gøre som Peter Norvig, men jeg ville aldrig have nået et lignende resultat af den simple grund, at min viden omkring emnet er for lille og jeg tvivler egentlig også på, at jeg er ligeså smart.
 
 Jeg brugte rundt regnet et par dage på at læse op på, hvordan de mest gængse "distance ensarthed" algoritmer fungerer, og det er som alt muligt andet i programmering: trade-offs omkring performance, kompleksitet og tid. Jeg kan efterhånden forstå, at det på ingen måde er nemt eller ukompliceret at bygge software, som kan udøve en stavekontrol, som du for eksempel finder i Word.
 
@@ -75,7 +75,7 @@ Levenshtein resultat med sekvensen "sykel":
 - ankel, 2
 - bydel, 2
 
-Fair nok, det er jo et gæt. Men jeg tænker allerede, vi kan bruge det resultat og gøre det endnu bedre.
+Fair nok, det er jo et gæt. Men jeg tænker allerede helt stille og roligt, vi måske kan bruge det resultat og gøre det bedre. Måske.
 
 Vi prøver lige med Damerau-Levenshtein og "sykel". Giver samme resultat.
 
@@ -93,4 +93,4 @@ Så "sykel" vil altså minde mere om "cykel" fordi de to sekvenser deler 4 karak
 
 Inden jeg gik i gang med at kigge på udfordringen, vidste jeg godt, at det ikke ville være let at lave. Og jeg er fuldstændig klar over, at jeg kun lige har dyppet min storetå i streng-distance algoritmerne, så min læring har været ret fundamental og relativt ny. Men det er præcis derfor, disse ting er gode og lærerige at begive sig ud i.
 
-Jeg åbnede for sjov lige Word og så til min forbavselse, at "sykel" blev til "sekel" af den stavekontrol jeg har. Det ved jeg ikke, hvad jeg skal bruge til noget, andet end at det åbenbart er et validt dansk ord :)
+Til min forbavselse, bliver "sykel" til "sekel" i min version af Word.

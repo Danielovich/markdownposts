@@ -1,4 +1,4 @@
-[//]: # "title: Stavekontrol er svært. Børnene vil hellere spille. Jaro, Hamming, Damerau og Levenshtein er alle døde."
+[//]: # "title: Stavekontrol er svært. Børnene vil hellere spille. Jaro, Hamming, Damerau og Levenshtein."
 [//]: # "slug: stavekontrol-er-svaert"
 [//]: # "pubDate: 24/04/2024 12:01"
 [//]: # "lastModified: 25/04/2023 08:46"

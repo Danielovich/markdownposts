@@ -94,3 +94,5 @@ Så "sykel" vil altså minde mere om "cykel" fordi de to sekvenser deler 4 karak
 Inden jeg gik i gang med at kigge på udfordringen, vidste jeg godt, at det ikke ville være let at lave. Og jeg er fuldstændig klar over, at jeg kun lige har dyppet min storetå i streng-distance algoritmerne, så min læring har været ret fundamental og relativt ny. Men det er præcis derfor, disse ting er gode og lærerige at begive sig ud i.
 
 Til min forbavselse, bliver "sykel" til "sekel" i min version af Word.
+
+[Koden til mine eksperimenter finder du her](https://github.com/Danielovich/SpellCheckingExperiments).

@@ -13,7 +13,7 @@ I et forsøg på at afhjælpe en ung drengs udfordringer med at stave, tænkte j
 
 De forstår – ligesom størstedelen af menneskeheden – ikke, hvorfor det skal være så svært at programmere et spil eller en bot, der kan spille WoW for dem, så de kan læne sig tilbage og senere nyde profiten af deres profilsignifikans – og også købe de sko og biler, de ser på TikTok og hører om i raptekster fra Biggie Smalls eller bare fra TV2s Fantastiske Toyota.
 
-Ak, der er meget at forstå hvis man tror noget .
+Ak, der kan være frustrerende at acceptere, at nogetr er svært når det fremstår nærmest lige foran en.
 
 De fleste af os tager vel for givet, hvilken hjælp vi egentlig får, når vores computer udøver stavekontrol for os. Hvordan kan det gå til, at en computer forstår, at når vi forsøger at stave til "cykelhjelm", men i stedet taster "cykelhjælm", at noget inden i maskinen "forstår", at "æ" skal være et "e".
 

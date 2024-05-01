@@ -1,0 +1,51 @@
+[//]: # "title: Du bliver også dine omgivelser."
+[//]: # "slug: du-bliver-ogsaa-dine-omgivelser"
+[//]: # "pubDate: 01/05/2024 12:42"
+[//]: # "lastModified: 01/05/2024 12:42"
+[//]: # "excerpt: "
+[//]: # "categories: "
+[//]: # "isPublished: true"
+
+Jeg vågner flere iskolde morgener i træk. Lungerne er fyldt med den kølige luft fra det svagt åbne vindue. Jeg tager mig lige lidt sammen og hiver lamellerne fra, og kigger ud. Det er januar eller februar. De fleste menneskers frygt. Alle sæsoner kan noget. I løbet af et øjeblik fornemmer jeg, om tiden er rigtig til at give det en chance. Det har jeg glædet mig til. Det har jeg ventet på.
+
+Der er korte øjeblikke, en tidlig søndag morgen, hvor byens indre er næsten perfekt. Lyset skal stå rigtigt i tonerne af orange, blå og rød. Det er mit billede. Det er et naturligt punkt i tiden, hvor det står stille. Ellers er det ligegyldigt. Forspildt chance. Det gør det i januar og februar. Det er som at blive forelsket i et billede. Det giver mig en mulighed for at være der, i noget intet menneske kan skabe.
+
+Lige før solen bryder helt igennem fra frostklare nætter og ind i barndommens lys. Der hvor rotationen af jorden samler kræfter og sætter solen på en stav af guld i mund. Bygningerne er forladte, og det emmer af ensomhed. Håndværkernes århundredes arbejde står klart her. Gaderne er tomme, og menneskets udeblivelse er som en gave, og som på lige præcis i denne time kan nydes som en sjældenhed.
+
+Jeg står derinde ved springvandet og ser henover et af byens tårne. Duggen svitser sig af tagryggen, alt er stille, selvom der lige triller en taxa roligt igennem nede ved kanalerne. Solens varme stråler, som det eneste varme i årstiden, strejfer vinduerne, hvor mennesket sover inde bagved. Heldigvis er de ikke ude endnu. Heldigvis kan jeg få dette øjeblik for mig selv. Der er noget foranderligt ved det hver gang. Også kan jeg stå her og nyde det i de ti minutter, det tager, før billedet er malet, og kollektivet er ude og søge efter nyt.
+
+Noget af det bedste arbejde, jeg har lavet, er sket smukke steder i verden. Ikke i isolation, men i omringelsen af naturens gaver. Det er omdannelsen af omgivelsernes energi. Ned i fingrene, op ad halsen, ud i læberne, ud af munden og ind igen. Som en balance bliver jeg rolig og tilsmiles netop af omgivelserne. Naturens gaver. Naturens egen virksomhed. Så tænder jeg computeren.
+
+Nu sidder jeg i en bjerglandsby. Spiste ficattola og lardo i går. Med kold rødvin. De grønne forårsbakker sveder allerede af morgensolen og slår sig blødt og fortsætter så langt øjet rækker. De ryster også nattefrosten af dynen. Hundene gør inde ved naboen, og to køer tygger tålmodigt på noget. Kvinderne trisser rundt i stueetagen med grin og søvndrukne stemmer, som slanger sig langs murene, og glæden breder sig sammen med kaffens syrlige duft.
+
+Skodderne fra vinduet, den metertykke stenmur, det ældgamle og tonstunge skrivebord venter bare endnu et menneskes store tanker. Det er forventningsfuldt. Ikke ligesom åbne kontorlandskaber, glorificerede papirnussere og de samme enige ord.
+
+Det er placeret med intelligens. Det tager et helt rum. Der er ingen, som har placeret det op ad muren eller væk fra den høje kip. Det er placeret, så omgivelserne, når jeg kigger ud af de store vinduer, giver mig alt den tryghed og skønhed, der kan optages af det rigtige menneske, som bor inde i mig selv.
+
+Nogle gange bliver omgivelserne eller indtrykket for meget. Så må jeg slukke. Tage tilløb. Få styr på omgivelserne og de skønheder, de naturligt bidrager med. Studere dem og lade dem indøve sine tendenser. Jeg ved udmærket godt, det er ikke dem, som skal ændre sig. Det er mig. Det er mig, som skal åbnes op og blive modtagelig. Det kan tage flere dage at vænne mig til det, og alt imens står computeren og blinker af mig i håb om, at det er i dag, vi skal i gang.
+
+Som et utålmodigt redskab, der på et tidspunkt vil så langt ind i mig, suge mig ind i sine umådelige tidsskrifter af kildekode, skrevet af andre mennesker, som ligesom mig, søger efter de bedste omgivelser for deres kreative og lykkelige ønsker om at kreere, og yde sit til at hjælpe mig med at skubbe videre.
+
+Vi skal lave noget, siger den til mig. Sæt mig i gang. Få din tålmodighed til at vige. Bare tryk lidt på mig og se om der kommer noget ud. Den er grim, når den står her, tænker jeg. En død ting, der er komplet ubrugelig uden et menneske. Den har ikke en chance i disse omgivelser. Børstet stål og plastik, var det virkelig det bedste, de kunne finde på? Når jeg har det sådan med den, så ved jeg, jeg ikke er klar endnu. Så må jeg vente. Jeg ved præcis, hvorfor jeg er her, det skal måles i den målestok, ikke maskinens.
+
+Noget tid efter sidder jeg på en bænk af træ, i en hytte på en strand, ved det nordlige Stillehav. Det er eftermiddag, og det har været roligt hele dagen. Kokosnødder og krabbeskjold har bare aldrig rigtig været mig. Det er da hyggeligt. Men det er for nemt. Havet bruser op, og himlen bliver mere mørk af storm. Formationerne i skyerne er som dommedagsmalerier, der ville portrættere et skibsforlis, en engel på vej i krig, eller mennesker, der tror mere på sig selv frem for solidaritet. Her passer det godt ind. Nu sker der noget. Lad det bryde ud for fuld skrue.
+
+Jeg føler det komme til mig, imens jeg står der og vågner. En løsning. Jeg taber tiden. Den er mere simpel, end jeg havde forventet, den ville være. Så pisker det ned fra oven, og sandet dufter anderledes friskt nu. Det blander sig med maden fra den anden side af vejen, men jeg fejer det væk igen. Havet lægger sig et øjeblik, og det er, som om alt bare går fuldstændigt i stå. Det bliver med ét køligere, og varmen forsvinder med ét fra huden.
+
+Alle de dage med streger på notesblokken tynger mig ikke længere. Tænder for maskinen. Ind i systemet, gransker det lidt, nærmest kirurgisk ved jeg præcis, hvor jeg skal hen. Min hukommelse har klarsyn. Også sker der bare ting, som ingen kan måle eller forstå. Gnisterne sprænger fra kommandolinjen, sletter lidt, ind her, ud der, videre. Og jeg bliver herinde, indtil udmattelsen er fuldkommen, og løsningen findes, men også syntes noget, der har taget et øjeblik, hvor virkeligheden er, at den har taget mere fra mig, end jeg synes, den er værd.
+
+Vi kører igennem et landskab, hvor de laver Sauternes. Efterårssolen sover lur i markerne, og vi er på vej mod vest. Ud til vandet. Ud til Biscayen. Vi har en gammel sag af en Citroen, fire døre og heldigvis noget manuelt at trykke og trække i. Jeg ville kunne skifte både motor og radio i den her. Jeg har for længst gennemskuet idiotien - klasse er ikke noget, der følger med - og digitalt finder jeg også sjæleforladt. Det sluger allerede rigeligt af mig. Jeg kan ikke stole på mig selv, når jeg ikke kan kigge ud over skærmen.
+
+Da jeg om aftenen træder ind i byen, er der svampe, som gror ud af væggene. Sorte svampe. De dufter som cognacen, de har liggende under jorden. En sideeffekt. En sikkerhedsrisiko. En fejlende test. En økonomi. Kan jeg købe en god brandert her, tak?
+
+Nede om læ, ombord på Karma, er lyset tændt fra et par lamper. Lugerne lukker en lille smule månelys ind. Det er messinglamper, og deres lys er mere guligt end hvidt. Kortbordet har været min arbejdsplads i nogle dage nu, konfiguration af diverse, log ind, log ud. Duften af lak, lyden af fald mod masterne, det rolige vand om morgenen og fyrets brummen har alt sammen været mit udgangspunkt. Det jeg ikke selv har været magthaver over, har givet mig mere magt over mig selv. Jeg har lavet noget godt arbejde her, tænker jeg. Omgivelserne har igen dannet billedet for mig. Jeg har kunnet placere mig i det og bruge det til de rigtige ting.
+
+Monotomt, men brugbart. Jeg er kommet igennem den ene udfordring efter den anden. Som perler på en snor. Som fuldt hus med et sildefang. Et par sjuser om aftenen og ti timers søvn. Der er altid bekymringer, men cirklen er ved at være fuldendt for denne gang. Konsekvenserne af vores afmagt og manglende stillingstagen til, hvad vi ellers kunne have bedret tiden med, snævrer sig naturligvis bare mere ind. Men nu, da dagene er gået, og tiden er væk til at gøre det om.
+
+Som en afslutning, en sløjfe på vores færd, deler vi et par flasker vin fra området. Spiser noget svine-rillettes på brød, bager et spidskål i ovnen og taler sagte om strategierne for, hvordan vi kan takle de næste udfordringer. Andre menneskers konstante ønsker fra os andre er som en rekursiv funktion.
+
+Du behøver ikke mere, siger jeg til ham. Kaptajnen og min gode ven. Næsten alt det, vi har lavet her, er godt. Den friske luft. Solen. Vandet. Miljøet. Resultaterne. Hvad mere vil du have, spørger jeg ham? Han svarer med et grin og en åbenlys bevidsthed om, at der altid er mere. Mere. Mere. Mere. Jeg giver ham ret og ser lidt rundt i det svenske kvalitetsbyg, som er blevet for dyrt at bygge i dag, fordi de færreste har tid til at bruge det, det koster. Hovedet har låst sig fast på et facit, og nu er det bare at finde de næste muligheder, der kan sætte stregen under det.
+
+Energien er forsvundet ud af tankerne. Computeren har overtaget. Informationer som en brandhane uden lås. Tasterne bliver ved med at klapre, og menneskene er i modsætning til om vinteren på gaden. Frem og tilbage. Det er blevet sommer, og vejret er fantastisk, men der er ikke mere ro af den grund. Alt er stadig en mulighed. Som om det ikke kan gå hurtigt nok, at skulle slutte spillet uden at vide, hvornår det starter. Vi er også tilbage. Tilbage i møllen. Tilbage i maskinen. Tilbage i tilbage. De omgivelser, som ikke giver os det bedste, vi er, men som uden at lægge mærke til det, bliver en del af.
+
+Vi kigger på hinanden og ved godt, vi ikke kan lære nogen noget af det, vi selv har fundet ud af. Det er vi nødt til at have for os selv. Som en hemmelighed, der ikke er hemmelig. Men med bevidstheden om, at minderne ikke er noget, som kan trænes af maskinen. Eller gengives i bøger, som ikke er skrevet af os selv. Og det smiler vi af og glæder os over, at inden alt for længe, så er vi afsted igen.

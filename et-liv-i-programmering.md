@@ -1,0 +1,39 @@
+[//]: # "title: Et liv med programmering. Et liv."
+[//]: # "slug: et-liv-med-programmering-et-liv"
+[//]: # "pubDate: 29/05/2024 13:03"
+[//]: # "lastModified: 29/05/2024 13:03"
+[//]: # "excerpt: "
+[//]: # "categories: "
+[//]: # "isPublished: true"
+
+"Writing a program is a process of learning... a particular set of historical events that determine not just the form of the code but also what the code does!" - Gerald Weinberg.
+
+Jeg er ofte efterladt i et gådefuldt rum. Gående rundt med en reflekterende tanke fra tvivlen omkring retninger. En tanke om noget programmering inde i hovedet. Det kan slukke for mig i mine omgivelser. Agere afvigende fra gennemsnittets mentalitet. Jeg isolerer mig. Det kan tage flere dage eller uger at bearbejde for mig. Som et regnestykke jeg skal have gjort op med mig selv. Jeg ligger ofte ikke længere vågen om natten over det. Til det kan jeg tilskynde litteraturen og den klassiske musik, jazz'en. Sjuser og cigarer. Frisk luft og se bøgen vokse ud i vandet.
+
+Så vader jeg rundt i det. Som når jeg betragter en ældre person ved havet eller på havnen. Personen, der sidder der på bænken og overvejer sit livs efterår, eftertænksom og velovervejet, muligvis rig på nogle erfaringer, muligvis stadig hungrende efter nye. De ældre er tættere på abstraktionerne end de yngre. Som når solens dybe toner om eftermiddagen forsøger at lukke sig selv ind gennem persiennerne.
+
+Der er altid flere akser at udforske. Såvel i programmeringen som i livet. Det er et privilegium og viser intellekt at bruge noget tid på fordybelsen omkring diverse kognitive meritter. Udforme og folde sig selv ud i sine muligheder og svagheder. Emner og retninger man ikke forstod første, anden eller tredje gang. Et menneskes indtrængen i sig selv.
+
+Emner og retninger man med tiden tager for givet, selvom de satte en på plads for et øjeblik siden. På den måde er historien om tiden og lærdommen om handlekraften i sit fag og i sit liv ikke anderledes end så meget andet. Spørgsmålet er, om tiden er rigtig, og om rummet til de muligheder er til stede. Vi er gode til at lyve overfor os selv. Fantastiske overlevelsesmekanismer. Også professionelt.
+
+Om der er ro og tryghed til indlæringen. Om trafikken buldrer dig afsted, og om det professionelle er mere for dig end skønheden i mulighederne. Om du har det, der skal til som menneske, at indvilge i, at det koster noget at blive bedre til noget. Hele tiden. Hele livet. At blive bedre til noget er ikke det samme som at være blevet til noget, det er en fejlagtig tilgang til et rigt personligt foretagende.
+
+"There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self." - Ernest Hemingway
+
+Når handlingen implicit nedgør min intelligens, bliver jeg som regel interesseret. Det er på lige vis en forbandelse og en åbenbaring. Vi søger alle sandheden i ting, vi selv tror på er rigtige. De færreste afviger sidenhen. Såvel i programmering som i livet. At ville agere klogere end andre forholder sig sådan, at klogskabens implementeringer ofte går hånd i hånd med erfaringerne og samtidig forpurrer enkelthedens billede. Som tidevandets frem og tilbage. Ikke at ville fremstå som komplet idiot eller udvise afvigelse fra ikke at høre til et sted blandt dem, som iagttager, er en dyrisk mekanisme.
+
+Blandt dem, hvis sandhed relaterer sig til min egen. Vil jeg virkelig lade andre diktere, hvilken sandhed jeg skal hellige mig til? At læger, revisorer, buschauffører, præster, skolelærere, bagere, narkomaner, modeller, fodboldspillere og tjenere relaterer sig til hinanden er også evident. At blive berøvet starter tidligt. At afvige er svært. At deltage er nemmest. Der er også piedestaler i programmeringen. Selvudnævnte tankeledere, arrogante elitære, reciterende ligegyldigheder. Alt sammen med deres råd, men sjældent med rådet om at tænke selv.
+
+Det er en utrættelig kamp, i forsøget på at modstå middelmådigheden i ens egen verden. Af opnåelse - ikke af klogskab eller ekstern applaus for samme - af enkelthedens klareste billede uanset i hvilken retning, hvorfra man anskuer det. Og hvor tiden for de fleste bliver deres værste fjende, når det strømlinede seriøse ikke er pladsgivende for deres inderste ønsker om at være den kunstner i eget liv eller den, som bliver husket for kvaliteten af det, de stod for igennem deres utrættelighed. Overengineering har sin plads på erfaringernes hylde, som noget vi alle enten er dumme nok til at skulle igennem, for at udleve og forhåbentlig respektere den samme forståelse for fejl, eller lade som om vi lægger under for samme, for at modtage velsignelsen fra gruppen.
+
+Der er ingen, der nogensinde bliver rige ved at fjerne muligheder. De fleste bliver rige ved at øge mulighederne og senere lyve om dem. Mulighedernes kompleksitet. Den bedste stol har stadig enten et eller fire ben.
+
+Hvis man har noget stort, som fylder meget, så har man meget at forholde sig til. Har man mere, end man værdsætter, kan prisen for det, der fylder, blive for dyr til, at man værdsætter det, der fylder. Skal man forholde sig til mindre, er der mere at kunne rumme. Skal man tjene mere, skal man ofre mere. Skal man tjene nogen, skal man ofre sig selv. Skal man lyve overfor sig selv, skal man være sikker på, at det er sandt. Hvis du er enkel, er du hurtig. Hvis du er hurtig, er du ikke nødvendigvis enkel. Men vi skal selvfølgelig alle videre, så godkend den patch og lad os blive i det, som vi altid er blevet i.
+
+"I remember walking with Ria when we were engaged — it was near Amsterdam's Central Station — when I explained to her that I wanted to be glad and happy with my eyes fully open, without fooling myself in the belief that we lived in a pink world: to be happy to be alive in the full knowledge of all misery, our own included...." - Edsger W.Dijkstra
+
+Det enkleste er naturligvis at lade være. Men også i det ligger der et kompleks. En form for Hikikomori. Som en eneboer, der forsøger at overbevise om, at vedkommende har set en anden verden, der ikke rummer noget bedre, fordi den på overfladen vokser sig mere farverig. Hvis der var lidt mere ro, kunne det være, at vi alle ville forstå lidt mere. Luk dig inde og bliv der. Verden er ikke særlig spændende i den ensformede forstand. Studér i den tid, du har til overs. Bliv enkel. Brug mindre. Voks dig stærkere. Hold det for dig selv og gør det yndefuldt i koncentrationen om din egen historie.
+
+Så når jeg kommer ind til paralysen af min udfordring i programmeringen. Efter dagevis med mentale navneforhold og strukturelle intuitioner, og jeg har fundet et rum og glasset er fyldt, så bruger jeg det, jeg har brugt tiden med, til at pudse en linje eller to ad gangen. Skærme mig selv så godt jeg kan for ikke med det samme at underkende næste gangs udgangspunkt. Med accepten af, at mit sind er konstant, mine evner konstante og næste år konstateret forbedret. Jeg er altid i beta. Der er intet rigtigt eller forkert, der er korrekt udregnet. Der er ikke noget at sige til, at mennesker, der programmerer, har det med at blive tidligt skøre, fordi rigtigt og forkert viser sig sjældent for os. På den måde er det ikke langt fra den konstante søgen efter sandheden.
+
+Der er boulevarder udenfor guldets rækkevidde. Med træer på hver side, så høje jeg ønsker dem. Trækroner så grønne og voluminøse, at de dækker dig. Hvor jeg kan spadsere op og ned og iagttage mulighederne opstå indeni mig, imens jeg lader tiden gå og roen indfinde sig sammen med den. Sluk for rumlen og lad mig døse ned i græsset med himlen og skyerne rulle forbi, alt imens jeg tænker mig om. Og tænker endnu mere over, hvor jeg er på vej hen. I hvilken retning og med hvilke muligheder jeg øjner for min egen sandhed.

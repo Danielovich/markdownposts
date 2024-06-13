@@ -4,19 +4,19 @@
 [//]: # "lastModified: 29/05/2024 13:03"
 [//]: # "excerpt: "
 [//]: # "categories: "
-[//]: # "isPublished: true"
+[//]: # "isPublished: false"
 
 "Writing a program is a process of learning... a particular set of historical events that determine not just the form of the code but also what the code does!" - Gerald Weinberg.
 
-Jeg er ofte efterladt i et gådefuldt rum. Gående rundt med en reflekterende tanke fra tvivlen omkring retninger. En tanke om noget programmering inde i hovedet. Det kan slukke for mig i mine omgivelser. Agere afvigende fra gennemsnittets mentalitet. Jeg isolerer mig. Det kan tage flere dage eller uger at bearbejde for mig. Som et regnestykke jeg skal have gjort op med mig selv. Jeg ligger ofte ikke længere vågen om natten over det. Til det kan jeg tilskynde litteraturen og den klassiske musik, jazz'en. Sjuser og cigarer. Frisk luft og se bøgen vokse ud i vandet.
+Jeg er ofte efterladt i et gådefuldt rum. Gående rundt med en reflekterende tanke fra tvivlen omkring hvilke retninger. Tanker om noget programmering inde i hovedet. Det kan slukke for mig i mine omgivelser. Agere afvigende fra gennemsnittets mentalitet. Som om dén er noget særligt. Jeg isolerer mig og bliver eneboer i mit sind. Jeg bruger flere dage, måske uger at udfolde mit sind i et helt tydeligt ekkokammer. Men det er som en stolthed - settle the score. Men jeg ligger ikke længere vågen om natten over den slags. Til det er jeg noget af litteraturen skyldig, den klassiske musik, jazz'en, hip hoppen, sjuserne og de korte cigarer. Frisk luft og se bøgen vokse ud i vandet er bedst.
 
-Så vader jeg rundt i det. Som når jeg betragter en ældre person ved havet eller på havnen. Personen, der sidder der på bænken og overvejer sit livs efterår, eftertænksom og velovervejet, muligvis rig på nogle erfaringer, muligvis stadig hungrende efter nye. De ældre er tættere på abstraktionerne end de yngre. Som når solens dybe toner om eftermiddagen forsøger at lukke sig selv ind gennem persiennerne.
+Så vader jeg lidt rundt i det. Som når jeg betragter dem der er alene på havet. På havnen. På kistebænken. Syntes at have gennemskuet det, men stadig af naturlig drift overvejer sit livs gerninger, eftertænksom måske endda velovervejet. Måske bare pisse kedelig og fattig på alt andet end dannelse. Muligvis stadig hungrende efter mere. De ældre finder jeg tættere på de abstraktioner de yngrer praler af at have bygget ovenpå. Solens dybe toner forsøger at lukke sig selv ind gennem mine persienner. End ikke den kan snyde skyggen.
 
-Der er altid flere akser at udforske. Såvel i programmeringen som i livet. Det er et privilegium og viser intellekt at bruge noget tid på fordybelsen omkring diverse kognitive meritter. Udforme og folde sig selv ud i sine muligheder og svagheder. Emner og retninger man ikke forstod første, anden eller tredje gang. Et menneskes indtrængen i sig selv.
+Der er altid flere akser at udforske. Såvel i programmeringen som i livet. Det privilegie udstråler også intellekt. At bruge tid på fordybelse får mig til at at stivne af skræk, den fuldstændig blotlæggende viden om at nogle har turde mere i livet end mig, får mig til at krybe sammen som et lille menneske. Kapaciteten fra udformelsen og udfoldelsen tager sig ud i egne styrker og svagheder. Emner og retninger jeg ikke forstod første, anden eller tredje gang. Mit menneskes indtrængen ind i mig selv.
 
-Emner og retninger man med tiden tager for givet, selvom de satte en på plads for et øjeblik siden. På den måde er historien om tiden og lærdommen om handlekraften i sit fag og i sit liv ikke anderledes end så meget andet. Spørgsmålet er, om tiden er rigtig, og om rummet til de muligheder er til stede. Vi er gode til at lyve overfor os selv. Fantastiske overlevelsesmekanismer. Også professionelt.
+Klogskaben jeg med tiden tager for givet, selvom den satte mig på plads for et øjeblik siden. På den måde er historien om tiden og lærdommen, om handlekraften i sine fag, og i sit liv, ikke anderledes end hos alle andres. Spørgsmålet er, om tiden er rigtig, og om rummet til mulighederne er til stede. Sikke noget pis, tag muligheden eller bliv skrækslagsen. Jeg lyver selvfølgelig også overfor mig selv. Fantastisk overlevelsesmekanisme. Også professionelt. 
 
-Om der er ro og tryghed til indlæringen. Om trafikken buldrer dig afsted, og om det professionelle er mere for dig end skønheden i mulighederne. Om du har det, der skal til som menneske, at indvilge i, at det koster noget at blive bedre til noget. Hele tiden. Hele livet. At blive bedre til noget er ikke det samme som at være blevet til noget, det er en fejlagtig tilgang til et rigt personligt foretagende.
+Om der er ro og tryghed til indlæringen. Om trafikken buldrer mig afsted. Om den professionelle indentitet er mere for mig end skønheden i mig selv. Om jeg har det, der skal til som menneske, at indvilge i, at det koster noget at blive bedre til noget. Hele tiden. Hele livet. At blive til nogen. Ikke noget. 
 
 "There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self." - Ernest Hemingway
 

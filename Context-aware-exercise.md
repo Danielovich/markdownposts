@@ -1,5 +1,5 @@
-[//]: # "title: Stavekontrol er svært. Børnene vil hellere spille. Jaro, Hamming, Damerau og Levenshtein."
-[//]: # "slug: stavekontrol-er-svaert"
+[//]: # "title: Context Aware Ability"
+[//]: # "slug: context-aware-abilities"
 [//]: # "pubDate: 14/6/2024 12:01"
 [//]: # "lastModified: 14/6/2024 14:45"
 [//]: # "excerpt: "

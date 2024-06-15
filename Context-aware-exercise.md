@@ -16,21 +16,21 @@ My experience tells me that in any field, the expected up-front complexity simul
 - It is easier to get around by bike than by car
 - It is easier to set up a wind farm than a nuclear power plant
 
-There are a lot of underlying things here that I'm fully aware exist - for instance, fiberglass doesn't make itself. Or that nuclear power is a more stable base-load technology because it works even when the sun isn't shining or the wind isn't blowing. But I think you understand what I'm trying to say.
+There are a lot of underlying things here that I'm fully aware exist - for instance, fiberglass doesn't grow on trees as wood does, it is a mixture of different other possible complex compontents. Or that nuclear power is a more stable base-load technology because it works even when the sun isn't shining or the wind isn't blowing. But I think you understand what I'm trying to say.
 
 "It is easier" naturally also applies to software.
 
-I think it's important, at least for myself, not to view increased complexity as a stamp of higher quality. Quite the opposite, in fact. I don't get a better product by using more complex technology, exclusive ingredients, or titanium. Unless I am 100% aware of why I need to use these. But then I usually pay a higher price for this increased complexity.
+I think it's important, at least for myself, not to view increased complexity as a stamp of higher quality. Quite the opposite, in fact. I don't get a better product by using more complex technology, exclusive ingredients, or titanium. Again I am fully aware I use the word "better" here which in reality has nothing to do with complexity or any of the words antonyms. But unless I am 100% aware of why I need to use apply complexity I try hard not to fall into it. I also usually find myself paying a higher price for this applied complexity.
 
-Therefore, getting the balance right is also important. In other words, you need to be meticulous about the question of why.
+Therefore, getting the balance right is also important. In other words, you need to be meticulous about the question of why complexity should not be introduced. I find it easier to apply complexity than to remove it. 
 
-- I make yeast dough because my guests can't taste the difference between it and sourdough anyway
-- I sail in a fiberglass boat because I don't want to maintain a wooden one
-- I make pasta alla norma when the kids are home and I'm tired after a long day
-- I make bouillabaisse when I have plenty of time and I know it will be appreciated by others
-- I bike in the city but drive by car when traveling far
+- I make yeast dough because my guests can't taste the difference between it and sourdough anyway (sourdough is more complex)
+- I sail in a fiberglass boat because I don't want to maintain a wooden one (wooden boats are known for higher cost at maintainablity)
+- I make pasta alla norma when the kids are home and I'm tired after a long day (takes less attention than a bouillabaisse)
+- I make bouillabaisse when I have plenty of time and I know it will be appreciated by others (i will apply complexity when i believe it's appreciated and needed)
+- I bike in the city but drive by car when traveling far (biking in a city is less stressful)
 
-It's actually fun to take your own statements and try to think about what they "cost" up-front, what their relative price is over time, and also what they give back, both up-front and over time.
+It's actually fun to take your own statements and try to think about what they "cost" up-front, what their relative price is over time, and also what they give back, both up-front and over time. Not only on a monetary level but also on the cognitive and environmental level.
 
 Is it really that different from:
 

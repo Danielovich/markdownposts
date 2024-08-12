@@ -26,27 +26,29 @@ An hour went by, and both of us loosened up regarding our stance towards the cha
 
 ### The Three Page Pattern Challenge for the Programming Interview.
 
-You have a log file from a website, with 3 columns. There are a million rows in the log file.
+You have a log file which is from a website. It has 3 columns. There are a million rows in the log file.
 
-The columns in the file is "UserId", "Path", "LoadTime".
+The columns in the file is "UserId", "Path", "LoadTime". It's a given that its ordered by a timestamp which is not present.
 
-A few rows could look like this but the UserId is not ordered as such in the log file:
+A few rows could look like this. Here I have taken an authorts pleasure and ordered the list for you but in the log file users are not ordered.
 
-```
-1, default.html, 87
-2, default.html, 37
-3, default.html, 57
-1, jobs.html, 22
-2, drinks.html, 34
-3, jobs.html, 58
-1, about.html, 11
-2, food.html, 89
-3, about.html, 43
-1, food.html, 36
-2, jobs.html, 78
+
+> 1, default.html, 87 \
+2, default.html, 37 \
+3, default.html, 57 \
+1, jobs.html, 22 \
+2, drinks.html, 34 \
+3, jobs.html, 58 \
+1, about.html, 11 \
+2, food.html, 89 \
+3, about.html, 43 \
+1, food.html, 36 \
+2, jobs.html, 78 \
 3, order.html, 66
-```
 
+So can we imagine an interviewer would ask us ? Horrible question to get under pressure. What programming was ever done with quality under pressure ?
+
+Try to see if you can make sense of these questions ?
 
 - What is the most common three page pattern for all users ? 
 - What is the frequency (how many times) of the most common pattern for all users ?
@@ -57,19 +59,18 @@ A few rows could look like this but the UserId is not ordered as such in the log
 Since this is not a question in an hour long interview I actually have a chance as well. I would not be able to make a programming solution for this challenge with dignity or certainty within a short time. I am not a fast programmer and I do not have faith or trust in the code that I write before I have iterated over it for some time.
 
 ```
-    private void NonExistingCommonPathOccurence(string compositeFlatPathKey, CommonPath commonPath)
+private void NonExistingCommonPathOccurence(string compositeFlatPathKey, CommonPath commonPath)
+{
+    if (!commonPathOccurences.ContainsKey(compositeFlatPathKey))
     {
-        if (!commonPathOccurences.ContainsKey(compositeFlatPathKey))
-        {
-            var occurence = new CommonPathOccurence(1,
-                new List<CommonPath>() {
-                    new CommonPath(commonPath.LoadTimeSum, 0, commonPath.Paths)
-                }
-            );
-
-            commonPathOccurences.Add(compositeFlatPathKey, occurence);
-        }
+        var occurence = new CommonPathOccurence(1,
+            new List<CommonPath>() {
+                new CommonPath(commonPath.LoadTimeSum, 0, commonPath.Paths)
+            }
+        );
+        commonPathOccurences.Add(compositeFlatPathKey, occurence);
     }
+}
 ```
 
 From here on I will try to make an iterative solution for this challenge, write about my thoughts and solutions, and I might be wrong and fail, but at least I get to excersise my programming skills.

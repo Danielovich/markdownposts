@@ -32,6 +32,7 @@ The columns in the file is "UserId", "Path", "LoadTime".
 
 A few rows could look like this but the UserId is not ordered as such in the log file:
 
+```
 1, default.html, 87
 2, default.html, 37
 3, default.html, 57
@@ -44,6 +45,8 @@ A few rows could look like this but the UserId is not ordered as such in the log
 1, food.html, 36
 2, jobs.html, 78
 3, order.html, 66
+```
+
 
 - What is the most common three page pattern for all users ? 
 - What is the frequency (how many times) of the most common pattern for all users ?

@@ -58,21 +58,6 @@ Try to see if you can make sense of these questions ?
 
 Since this is not a question in an hour long interview I actually have a chance as well. I would not be able to make a programming solution for this challenge with dignity or certainty within a short time. I am not a fast programmer and I do not have faith or trust in the code that I write before I have iterated over it for some time.
 
-```
-private void NonExistingCommonPathOccurence(string compositeFlatPathKey, CommonPath commonPath)
-{
-    if (!commonPathOccurences.ContainsKey(compositeFlatPathKey))
-    {
-        var occurence = new CommonPathOccurence(1,
-            new List<CommonPath>() {
-                new CommonPath(commonPath.LoadTimeSum, 0, commonPath.Paths)
-            }
-        );
-        commonPathOccurences.Add(compositeFlatPathKey, occurence);
-    }
-}
-```
-
 From here on I will try to make an iterative solution for this challenge, write about my thoughts and solutions, and I might be wrong and fail, but at least I get to excersise my programming skills.
 
-I have made a log file for the challenge which you can download here if you want to give it a try.
+I have made a [log file for the challenge](references/a-man-with-a-three-page-challenge/logfile.csv) which you can download here if you want to give it a try.

@@ -6,7 +6,7 @@
 [//]: # "categories: software"
 [//]: # "isPublished: true"
 
-[Make sure to read the problem scope in first article in this series.]('/a-man-with-a-three-page-path-challenge.html')
+[Make sure to read the problem scope in first article in this series.](/a-man-with-a-three-page-path-challenge.html)
 
 When looking at a programming challenge, I usually spend some time processing and mentally mapping some of the issues at hand. I doubt this is a unique trait for me, but perhaps I spend more time than others thinking before writing any code. I like to come prepared, and I don't really like surprises. I am not a particularly fast programmer, but when I come prepared, it usually helps. I put pressure elsewhere in the beginning. But I still iterate during my implementation.
 

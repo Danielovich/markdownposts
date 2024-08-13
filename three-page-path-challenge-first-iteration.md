@@ -6,6 +6,8 @@
 [//]: # "categories: software"
 [//]: # "isPublished: true"
 
+[Make sure to read the problem scope in first article in this series.]('a-man-with-a-three-page-path-challenge.html')
+
 When looking at a programming challenge, I usually spend some time processing and mentally mapping some of the issues at hand. I doubt this is a unique trait for me, but perhaps I spend more time than others thinking before writing any code. I like to come prepared, and I don't really like surprises. I am not a particularly fast programmer, but when I come prepared, it usually helps. I put pressure elsewhere in the beginning. But I still iterate during my implementation.
 
 Looking at this challenge, I thought the most interesting part of the program would be how to partition the log entries into some kind of pattern which could be used later.
@@ -322,6 +324,8 @@ public IEnumerable<CommonPathOccurrence> ThreePagePattern(IEnumerable<CommonPath
 
 This leaves me with a result which the test above ```Find_Most_Common_Three_Page_Path_Pattern_For_Three_Users``` asserts to true. It's not ordered by the ```OccurrenceCount``` but my method ```ThreePagePattern``` is not yet named as such that it infers that it should come in some kind of order. Next iteration.
 
-Before I conclude this iteration, I will say that there are some things left to do, especially around composition and naming. There might be some low-hanging fruits for performance gains, but I need to measure it.
+I am well aware that I have not answered all the questions for the challenge, but we are getting there.
+
+So before I conclude this iteration, I will say that there are some programming left to do, especially around composition and naming. There might be some low-hanging fruits for performance gains, but I need to measure it, and I will focus on them thouroughly just yet.
 
 When I run the code with a million rows, it times right now to around 7 seconds, which I believe is way too long. I will hopefully iterate my way through to better performance too.

@@ -289,4 +289,4 @@ public class PathPatternsAnalyzerTests
 
 I might return to this challenge in time, perhaps sooner than later, but for now I consider it at a satisfying state.
 
-You can find all the code for the iterations here.
+[You can find all the code for the iterations here.](https://github.com/Danielovich/LogParsingKata)

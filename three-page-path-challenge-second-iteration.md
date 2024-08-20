@@ -221,9 +221,7 @@ public class PathPatterns
             var patternOccurrence = pathPatternOccurrences[flattenedPaths];
             var count = patternOccurrence.OccurrenceCount;
 
-            patternOccurrence.PathPatterns
-
-.Add(
+            patternOccurrence.PathPatterns.Add(
                 new UserPathPartition(userPathPartition.Paths)
             );
 

@@ -8,6 +8,8 @@
 
 [Make sure to read the problem scope in first article in this series.](/a-man-with-a-three-page-path-challenge.html)
 
+In this article I will try to get my head around the first question of the challenge; What is the most common three page pattern for all users ?
+
 When looking at a programming challenge, I usually spend some time processing and mentally mapping some of the issues at hand. I doubt this is a unique trait for me, but perhaps I spend more time than others thinking before writing any code. I like to come prepared, and I don't really like surprises. I am not a particularly fast programmer, but when I come prepared, it usually helps. I put pressure elsewhere in the beginning. But I still iterate during my implementation.
 
 Looking at this challenge, I thought the most interesting part of the program would be how to partition the log entries into some kind of pattern which could be used later.

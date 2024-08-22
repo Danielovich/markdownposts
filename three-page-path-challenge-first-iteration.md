@@ -195,7 +195,7 @@ So now I have a collection with all the possible 3-pair path patterns for each u
 
 At this point, I thought the "worst part" was over and I could start laying the groundwork for somehow counting the occurrences in the ```IEnumerable<CommonPath>```. For that, I believed I needed a faster collection than a List and I also wanted to compose a different type than the ```CommonPath``` for holding the result.
 
-Back to the tests. As I started writing a test, I composed a new type, which I circled around for exposing the result as a collection. It manifested into an immutable type like this. If I could get a collection like this as a result, I would be grateful.
+Back to the tests. As I started writing a test, I composed a new type, which I circled around for exposing the result as a collection. It manifested into an mutable type like this. If I could get a collection like this as a result, I would be grateful.
 
 ```
 public class CommonPathOccurrence
@@ -212,7 +212,7 @@ public class CommonPathOccurrence
 
 I know there are a few things that stick out here, but it's the first iteration, and as previously stated, I will re-iterate.
 
-But I still needed to do some internal juggling for adding and increasing to this type, specifically since the type I made immutable, I would have to do a little more than if it were mutable.
+But I still needed to do some internal juggling for adding and increasing to this type, specifically since the type I made mutable, I would have to do a little more than if it were immutable.
 
 ```
 [Fact]
@@ -298,7 +298,7 @@ private void ExistingCommonPathOccurrence(string flatPaths, CommonPath commonPat
 }
 ```
 
-I chose to flatten the paths and use that as my dictionary key. Since the ```CommonPathOccurrence``` is immutable, I have to remove the existing instance and add a new one with the old values and an increased count.
+I chose to flatten the paths and use that as my dictionary key.
 
 I use the ```CommonPath``` as a collection type within ```CommonPathOccurrence``` acting as a container, but looking at the composition and especially how I use that specific collection with the ```ExistingCommonPathOccurrence``` and ```NonExistingCommonPathOccurrence``` I think I can do a better design. This is still the first iteration, though, so I will come to it.
 

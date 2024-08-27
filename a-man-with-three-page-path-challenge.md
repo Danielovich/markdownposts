@@ -30,7 +30,7 @@ You have a log file which is from a website. It has 3 columns. There are a milli
 
 The columns in the file is "UserId", "Path", "LoadTime". It's a given that its ordered by a timestamp which is not present.
 
-A few rows could look like this. Here I have taken an authorts pleasure and ordered the list for you but in the log file users are not ordered.
+A few rows could look like this. Here I have taken the authors executive and ordered the list for you but in the log file users are not ordered.
 
 
 > 1, default.html, 87 \

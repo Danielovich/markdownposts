@@ -8,6 +8,8 @@
 
 [Make sure to read the problem scope in first article in this series.](/a-man-with-a-three-page-path-challenge.html)
 
+### Though processing and showing your not so good hand
+
 In this article I will try to get my head around the first question of the challenge; What is the most common three page pattern for all users ?
 
 When looking at a programming challenge, I usually spend some time processing and mentally mapping some of the issues at hand. I doubt this is a unique trait for me, but perhaps I spend more time than others thinking before writing any code. I like to come prepared, and I don't really like surprises. I am not a particularly fast programmer, but when I come prepared, it usually helps. I put pressure elsewhere in the beginning. But I still iterate during my implementation.
@@ -34,7 +36,7 @@ public struct LogEntry
 }
 ```
 
-I start by writing a test, of course, since TDD will help both me design the code for the better as we go along and later guard me from regressions, which is what tests, to me, are all about.
+I start by writing a test, of course, and TDD will help me design the code for the better as I go along and later, hopefully, guard me from regressions, which is what tests, to me, are all about.
 
 ```
 private IEnumerable<LogEntry> FakeEntries_For_Three_Users()
@@ -66,7 +68,7 @@ private IEnumerable<LogEntry> FakeEntries_For_Three_Users()
 
 This should be easy to comprehend mentally because the log entry list at hand is short and will make my code execute faster and it will be easier for me to debug because I can calculate results by hand.
 
-There are 6 entries with the userId=1. If we want to pair six entries into groups of 3, we should have 4 pairs:
+There are 6 entries with the userId=1. If I want to pair six entries into groups of 3, I should have 4 pairs:
 
 > 1.html \
 2.html \
@@ -92,9 +94,9 @@ I thought about this for a short while, while writing a bit of code, and circled
 
 Since this is the first iteration, I didn't think about returning one collection only, which I actually haven't tried, but I have made a note that it would be worthwhile pursuing.
 
-I want to make a note of how I perceive quality in code, which is not something I believe you can ever obtain in a first iteration. So I am not so concerned with naming, structure, and to some extent design. I am always trying my best at the moment I am trying it, knowing all too well as I go I will become wiser. When you program for money, the time factor from external pressure for pace is never in favor.
+I want to make a note of how I perceive quality in code, which is not something I believe you can ever obtain in a first iteration. So I am not so concerned with naming, structure, and to some extent design. I am always trying my best at the moment I am trying it, knowing all too well as I go on I will become wiser and simply forget why I did something. When you program for money, the time factor from external pressure for pace is never in favor.
 
-I went back to my tests and wanted to assert my pairing of the user's paths, using TDD; test, refactor, test, refactor, etc.
+I went back to my tests and wanted to assert my pairing of the user's paths; test, refactor, test, refactor, etc.
 
 ```
 [Fact]
@@ -116,7 +118,7 @@ public void Common_Path_Partitions_For_User_Is_Partitioned_Correctly()
 }
 ```
 
-We exercise the CommonPathPartitionsByUserId as you might have spotted. I have a few more tests that exercise the same method, with different input, but I saw no reason to add them here.
+I exercise the CommonPathPartitionsByUserId as you might have spotted. I have a few more tests that exercise the same method, with different input, but I saw no reason to add them here.
 
 ```
 public IEnumerable<CommonPath> CommonPathPartitionsByUserId()
@@ -151,7 +153,7 @@ Looking at this code while I write this, I have a thought about the nested loop.
 
 In the inner loop, I call ```CreateLogPartitions(3, entry);``` where ```entry``` is the list of log entries for a user.
 
-The responsibility of the method ```CreateLogPartitions``` is to pair the paths for each user. During a TDD iteration, I ended up creating a new type; ```CommonPath```, which I use for holding the log entry pairs and a summed-up load time for each pair.
+The responsibility of the method ```CreateLogPartitions``` is to pair the paths for each user. During a TDD "iteration", I ended up creating a new type; ```CommonPath```, which I use for holding the log entry pairs and a summed-up load time for each pair.
 
 ```
 public class CommonPath
@@ -170,9 +172,9 @@ public class CommonPath
 
 You might wonder what the method ```CreateLogPartitions``` looks like, but I am not going to show it to you just yet. Think about how you would do it yourself.
 
-I made the return value of the method a ```List<IEnumerable<LogEntry>>``` and I made the method recursive. It didn't take me long to note this as something I wanted to address in the near future. Not that I do not find recursion useful, but I am not sure it helps the reader of the code in this case, as it might be *too much* for what is needed. I believe a simpler loop could do the same, and I want to try it in another iteration. The signature of the method looks like this, see if you can implement a recursive method with the same signature ```List<IEnumerable<LogEntry>> CreateLogPartitions(int partitionSize, IEnumerable<LogEntry> logEntries, int skip = 0)```
+I made the return value of the method a ```List<IEnumerable<LogEntry>>``` and I made the method recursive. It didn't take me long to note this as something I might want to address in the near future. Not that I do not find recursion useful, but I am not sure it helps the reader of the code in this case, as it might be *too much* for what is needed. I believe a simpler loop could do the same, and I might want to try it in another iteration. I might not. The signature of the method looks like this, see if you can implement a recursive method with the same signature ```List<IEnumerable<LogEntry>> CreateLogPartitions(int partitionSize, IEnumerable<LogEntry> logEntries, int skip = 0)```
 
-What we are left with, which is also exposed by looking at the test above, is a collection ```IEnumerable<CommonPath>```.
+What I am left with, which is also exposed by looking at the test above, is a collection ```IEnumerable<CommonPath>```.
 
 The first two entries in the collection:
 
@@ -191,11 +193,11 @@ The first two entries in the collection:
     &emsp;&emsp;[2] = 7.html \
 &emsp;UserId = 1
 
-So now I have a collection with all the possible 3-pair path patterns for each user. I have a few tests that I use for regressions, and I am at a point where I need to think about how I will count the occurrences of each pattern.
+So now I have a collection with all the possible 3-pair path patterns for each user. I have a few tests and I am at a point where I need to think about how I will count the occurrences of each pattern.
 
 At this point, I thought the "worst part" was over and I could start laying the groundwork for somehow counting the occurrences in the ```IEnumerable<CommonPath>```. For that, I believed I needed a faster collection than a List and I also wanted to compose a different type than the ```CommonPath``` for holding the result.
 
-Back to the tests. As I started writing a test, I composed a new type, which I circled around for exposing the result as a collection. It manifested into an mutable type like this. If I could get a collection like this as a result, I would be grateful.
+Back to the tests. As I started writing a test, I composed a new type, which I circled around for exposing the result as a collection. It manifested into an mutable type like this. If I could get a collection of this type as a result, I would be grateful.
 
 ```
 public class CommonPathOccurrence
@@ -236,7 +238,7 @@ public void Find_Most_Common_Three_Page_Path_Pattern_For_Three_Users()
 }
 ``` 
 
-Remember the list of entries we are testing against. It has some users that each share the same path pattern of 1.html, 2.html, 3.html. That is the most common pattern; hence, it should occur 3 times in the collection variable "pattern".
+Remember the list of entries I am testing against. It has some users that each share the same path pattern of 1.html, 2.html, 3.html. That is the most common pattern; hence, it should occur 3 times in the collection variable "pattern".
 
 ```
 public IEnumerable<CommonPathOccurrence> ThreePagePattern(IEnumerable<CommonPath> commonPaths)
@@ -302,7 +304,7 @@ I chose to flatten the paths and use that as my dictionary key.
 
 I use the ```CommonPath``` as a collection type within ```CommonPathOccurrence``` acting as a container, but looking at the composition and especially how I use that specific collection with the ```ExistingCommonPathOccurrence``` and ```NonExistingCommonPathOccurrence``` I think I can do a better design. This is still the first iteration, though, so I will come to it.
 
-Let's look at the calling method again. I call the internal workings, which hand me back a dictionary, and then I order it by its key and convert it into a List. This seems expensive, so I will have to address that too.
+Let's look at the calling method again. I call the "internal workings", which hand me back a ```Dictionary<string, CommonPathOccurrence>```, and then I order it by its key and convert it into a List. This seems expensive, so I will have to address that too.
 
 ```
 public IEnumerable<CommonPathOccurrence> ThreePagePattern(IEnumerable<CommonPath> commonPaths)
@@ -326,8 +328,10 @@ public IEnumerable<CommonPathOccurrence> ThreePagePattern(IEnumerable<CommonPath
 
 This leaves me with a result which the test above ```Find_Most_Common_Three_Page_Path_Pattern_For_Three_Users``` asserts to true. It's not ordered by the ```OccurrenceCount``` but my method ```ThreePagePattern``` is not yet named as such that it infers that it should come in some kind of order. Next iteration.
 
-I am well aware that I have not answered all the questions for the challenge, but we are getting there.
+I am well aware that I have not answered all the questions for the challenge, but I are getting there.
 
-So before I conclude this iteration, I will say that there are some programming left to do, especially around composition and naming. There might be some low-hanging fruits for performance gains, but I need to measure it, and I will focus on them thouroughly just yet.
+So before I conclude this iteration, I will say that there are some programming left to do, especially around composition and naming. There might be some low-hanging fruits for performance gains, but I need to measure it, and I will not focus on them thouroughly just yet.
 
 When I run the code with a million rows, it times right now to around 7 seconds, which I believe is way too long. I will hopefully iterate my way through to better performance too.
+
+[The code for the first iteration you may find here.](https://github.com/Danielovich/LogParsingKata/tree/firstiteration/logparserkata)

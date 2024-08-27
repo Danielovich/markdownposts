@@ -1,7 +1,7 @@
 [//]: # "title: A Man with a Three Page Path Challenge"
 [//]: # "slug: a-man-with-a-three-page-path-challenge"
 [//]: # "pubDate: 1/8/2024 10:22"
-[//]: # "lastModified: 12/8/2024 10:22"
+[//]: # "lastModified: 27/8/2024 9:22"
 [//]: # "excerpt: "
 [//]: # "categories: software"
 [//]: # "isPublished: true"

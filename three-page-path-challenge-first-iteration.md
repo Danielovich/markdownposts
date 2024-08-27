@@ -8,7 +8,7 @@
 
 [Make sure to read the problem scope in first article in this series.](/a-man-with-a-three-page-path-challenge.html)
 
-### Though processing and showing your not so good hand
+### Thought processing and showing my not so good hand
 
 In this article I will try to get my head around the first question of the challenge; What is the most common three page pattern for all users ?
 

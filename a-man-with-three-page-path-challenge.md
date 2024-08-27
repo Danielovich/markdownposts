@@ -6,7 +6,7 @@
 [//]: # "categories: software"
 [//]: # "isPublished: true"
 
-During a stay on a small island in Kattegat, one night I was thirsty for company and crept aboard and into the sunsetting night of imagination and warm air around me. The waves licking shore into true randomness of sparkling diamonds from the low sun and the sandy banks still covering the desert while people calmly sipping on colored drinks and wine in their cockpits.
+During a stay on a small island in Kattegat, one night I was thirsty for company and crept offboard and into the sunsetting night of imagination and warm air around me. The waves licking shore into true randomness of sparkling diamonds from the low sun and the sandy banks still covering the desert while people calmly sipping on colored drinks and wine in their cockpits.
 
 I found a small bar in the northwestern end of the harbor, a wooden shack with an older lady as barkeep. Twenty years ago, this place was nothing but fishing boats and an anchorage bay. She looked like she couldn't do her job much longer, but she still looked nothing like other people's integrity. I didn't blame her. We are all for sale, I thought. I ordered two drinks for myself, which is an old habit, one for a thirsty palate and the delightful possibility of not drinking just one thing.
 

@@ -269,3 +269,5 @@ I have no good way to check the actual partition size of the argument being pass
 We would not be able to answer the first question, "What is the most common three-page pattern for all users?" if one partition is of size 6 and another is of size 4. They have to be sized as 3.
 
 That means I have to add some defensiveness to my ```PathPatternAnalyzer``` type. I will take a look at that in iteration 3.
+
+[You can find the code for this iteration here.](https://github.com/Danielovich/LogParsingKata/tree/seconditeration/logparserkata)

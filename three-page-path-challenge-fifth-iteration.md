@@ -1,6 +1,6 @@
 [//]: # "title: Three Page Path Challenge - fifth iteration"
 [//]: # "slug: a-man-with-a-three-page-path-challenge-fifth-iteration"
-[//]: # "pubDate: 2/9/2024 8:22"
+[//]: # "pubDate: 2/9/2024 08:22"
 [//]: # "lastModified: 2/9/2024 12:03"
 [//]: # "excerpt: "
 [//]: # "categories: software"

@@ -6,9 +6,9 @@
 [//]: # "categories: organisation"
 [//]: # "isPublished: true"
 
-### When Technology Overshadows the Social in Software Development
+In the world around the individualism of software enginnering and programming one sometimes need what cyclists calls "an exercise adjustment". It often results in ones own arrogance being taken down a notch.
 
-In the world around the individualism of software enginnering and programming one sometimes need what cyclists calls "an excersise adjustment". Technology often takes center stage. Socalled new frameworks, never-ending disussions around paradigms, and tools that promise to optimize, streamline, and solve complex problems. 
+Technology often takes center stage. Socalled new frameworks, never-ending disussions around paradigms, and tools that promise to optimize, streamline, and solve complex problems. 
 
 Lately I have watched four real human beings, working together for weeks, to develop an algoritihm. Sitting in the same room. Churning. Talking. Discussing. Sharing knowledge. Using social skills. Increasing cognitive safety for domain understanding. In my book, that is team work. Funny enough others around this group has expressed their interest wanting to be part of such a tightly knit setting.
 

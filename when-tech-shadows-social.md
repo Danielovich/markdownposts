@@ -6,6 +6,8 @@
 [//]: # "categories: organisation"
 [//]: # "isPublished: true"
 
+*A piece of thought with little to back it up.*
+
 In the world around the individualism of software enginnering and programming one sometimes need what cyclists calls "an exercise adjustment". It often results in ones own arrogance being taken down a notch.
 
 Technology often takes center stage. Socalled new frameworks, never-ending disussions around paradigms, and tools that promise to optimize, streamline, and solve complex problems. I get a bit disappointed in the field at times, hoping for higher standards, and I would also be happy for a bit more pressure on the social well being in a professional setting. I am not talking about perks or office hours, I am talking power and social dynamics.
@@ -19,7 +21,9 @@ As a programmer, I frequently find myself wondering why the social aspects of ou
 
 ### The Allure of Technology
 
-It's common for both programmers and managers to attempt to solve organizational issues by implementing new technologies. There’s a tendency to believe that tools like technology can drive and can resolve deeper, more fundamental collaboration problems. But this reinforces a theory I’ve long held: we misunderstand the role that technology plays within our organizations.
+It's common for both programmers and managers to attempt to solve organizational issues by implementing new technologies. Look at how loose the saying from Conway has been become, like it's a technological issue to fix how communication flows through an organisation. 
+
+There might be tendency to believe that technology can drive and can resolve deeper, more fundamental collaboration problems. But this reinforces a theory I’ve long held: we misunderstand the role that technology plays within our organizations.
 
 A well-intentioned but purely technological approach can easily overlook the social structures needed to foster healthy teams. We become trapped in a mindset that assumes technological design will naturally create the right conditions for better collaboration and outcomes. This is a short-sighted solution that focuses only on the tools and not on how people actually work together.
 
@@ -27,7 +31,7 @@ A well-intentioned but purely technological approach can easily overlook the soc
 
 Power dynamics in an organization play a crucial role in how decisions are made and which solutions are chosen. I recently encountered a manager in a ten-person team who believed that there was no time for code reviews. This might seem as both an easy fix and a shit for brains stance, but in real life you encounter organisations and people that hold power they will not democratize. Being afraid of loosing that power grip is a real thing in some humans.
 
-This is also a perfect example of how one person’s decision can shape an entire team's working processes. Code reviews are not just a technical step toward better code quality; they are also an opportunity for learning, feedback, and collaboration. When social mechanisms like these are removed from the process, you lose the relational dynamics that can strengthen a team.
+This is also a good example of how one person’s decision can shape an entire team's working processes. Code reviews are not just a technical step toward better code quality; they are also an opportunity for learning, feedback, and collaboration. When social mechanisms like these are removed from the process, you lose the relational dynamics that can strengthen a team.
 
 If we up the ante and instead add a deeper rooted decision, that could have a more profound effect on a team, then we simply complicate matters even further.
 

@@ -8,9 +8,9 @@
 
 In the world around the individualism of software enginnering and programming one sometimes need what cyclists calls "an exercise adjustment". It often results in ones own arrogance being taken down a notch.
 
-Technology often takes center stage. Socalled new frameworks, never-ending disussions around paradigms, and tools that promise to optimize, streamline, and solve complex problems. 
+Technology often takes center stage. Socalled new frameworks, never-ending disussions around paradigms, and tools that promise to optimize, streamline, and solve complex problems. I get a bit disappointed in the field at times, hoping for higher standards, and I would also be happy for a bit more pressure on the social well being in a professional setting. I am not talking about perks or office hours, I am talking power and social dynamics.
 
-Lately I have watched four real human beings, working together for weeks, to develop an algoritihm. Sitting in the same room. Churning. Talking. Discussing. Sharing knowledge. Using social skills. Increasing cognitive safety for domain understanding. In my book, that is team work. Funny enough others around this group has expressed their interest wanting to be part of such a tightly knit setting.
+Lately I have watched four real human beings, working together for weeks, to develop an algorithm. Sitting in the same room. Churning. Talking. Discussing. Sharing knowledge. Using social skills. Increasing cognitive safety for domain understanding. In my book, that is team work. Funny enough, others around this group has expressed their interest, wanting in the future to be part of such a tightly knit setting.
 
 In our pursuit of technical solutions, we often overlook the social aspects that are crucial to building successful teams and organizations. Why do you think this happens ? And what are the consequences for the humans alongside you ?
 

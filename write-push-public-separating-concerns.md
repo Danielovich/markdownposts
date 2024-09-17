@@ -6,7 +6,7 @@
 [//]: # "categories: software"
 [//]: # "isPublished: true"
 
-For the [local-first, feature-less, and admittedly boring static site generator that runs this blog](https://github.com/Danielovich/RubinStatic), I have had a few thoughts around a different model for materializing response output.
+For the [local-first, feature-less, and admittedly boring static site generator that runs this blog](https://github.com/Danielovich/RubinStatic), I have had a few thoughts around a different model for materializing response output. You can always [read about the initial design thoughts](https://github.com/Danielovich/RubinStatic/blob/main/designthoughts.md) for Rubin.Static, I still do sometimes.
 
 Today, when I write an article or post, I type the text in my favorite text editor as Markdown. When I’m finished writing, I push that Markdown file to a repository on GitHub.
 
@@ -25,9 +25,9 @@ When I want to update this site, I run a program locally on my machine called **
 - The program generates all static files every time it runs.
 - The program does not publish any files externally.
 
-This is where my overactive programming mind starts playing tricks on me. I start thinking about parallelism for HTTP requests and wasted clock cycles when generating files whose content hasn’t even been touched. Why even download files that haven’t changed, and so on. As usual, I try hard not to let the "creative department on the top floor" take over completely.
+This is where my fraudulent programming mind starts playing tricks on me. I start thinking about parallelism for HTTP requests, wasted clock cycles when generating files whose content hasn’t even been touched and why even download files that haven’t changed ? And so on. Overengineering is the root of...and all that jazz. But I fallen for the traps before so these days I do not have to let the "creative department on the top floor" take over completely.
 
-This approach leaves the site as eventually consistent. Even though I may have content in the write store which is set as published, the site will not reflect that until the static files are generated and the site is updated. We could call it a manual event but it was done on purpose.
+This approach around "write -> push" leaves the actual site eventually consistent. Even though I may have content in the write store, which is set as published, the site will not reflect that until the static files are generated and the site is updated. We could choose to call this a manual event, but it was no accident, I designed it this way on purpose.
 
 ### How is a post or article generated?
 

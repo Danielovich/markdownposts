@@ -56,7 +56,7 @@ If I were to event-drive this, it would require a completely different page gene
 To make it crystal clear, the following **Rubin.Static**-supported Markdown file would generate a static HTML file called **this-is-the-slug-for-some-post.html** and also contribute to generating **software.html**, **code.html**, and **index.html**:
 
 
-> [[//]]: # "title: Some post" \
+> [//]: # "title: Some post" \
  [[//]]: # "slug: this-is-the-slug-for-some-post" \
  [[//]]: # "pubDate: 14/6/2024 12:01" \
  [[//]]: # "lastModified: 17/6/2024 10:20" \

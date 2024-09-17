@@ -57,14 +57,13 @@ To make it crystal clear, the following **Rubin.Static**-supported Markdown file
 
 
 > [//]: # "title: Some post" \
- [[//]]: # "slug: this-is-the-slug-for-some-post" \
- [[//]]: # "pubDate: 14/6/2024 12:01" \
- [[//]]: # "lastModified: 17/6/2024 10:20" \
- [[//]]: # "excerpt: Whatever you want!" \
- [[//]]: # "categories: software, code" \
- [[//]]: # "isPublished: true" \
+ [//]: # "slug: this-is-the-slug-for-some-post" \
+ [//]: # "pubDate: 14/6/2024 12:01" \
+ [//]: # "lastModified: 17/6/2024 10:20" \
+ [//]: # "excerpt: Whatever you want!" \
+ [//]: # "categories: software, code" \
+ [//]: # "isPublished: true" \
  > > Content goes here!
-
 
 
 I would bet the most common way online applications materialize their views is based on collecting data "just in time." With the data at hand, we can then materialize and render it for the user. 

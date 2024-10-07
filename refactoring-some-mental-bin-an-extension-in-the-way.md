@@ -1,5 +1,5 @@
-[//]: # "title: Refactoring some Mental Bin: An Extension in the way"
-[//]: # "slug: refactoring-some-mental-bin-an-extension-in-the-way"
+[//]: # "title: Refactoring the Mental Bin: An Extension in the way"
+[//]: # "slug: refactoring-the-mental-bin-an-extension-in-the-way"
 [//]: # "pubDate: 7/10/2024 10:22"
 [//]: # "lastModified: 8/10/2024 12:22"
 [//]: # "excerpt: "

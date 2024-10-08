@@ -35,7 +35,7 @@ So, I was reading some code, and this might seem like a bland example, but it sh
 
 Go ahead and write a program that does that.
 
-Such a type or method could easily be a utility type/method. Some might even call it a helper. An extension is another name for a higher communicated candidate. There is nothing wrong with any of them, but personally I sometimes forget to think whether such a type is too easy to implement in terms of missing out on cohesion and better encapsulation.
+Such a type or method could easily be a utility type/method. Some might even call it a helper. An extension is another name for a higher communicated candidate. There is nothing wrong with any of them, but personally I sometimes forget to think whether such a type is too easy to implement in terms of missing out on responsibility and better encapsulation.
 
 So I can have a difficult time with these sort of types since they tend to grow in the number of files, the number of methods, and the number of things that are just considered an extension, helper or utility.
 
@@ -49,7 +49,7 @@ At the time of writing, I have [five files in the Extensions directory](https://
 
 I can’t remember why I wrote the initial method like I did, but as I just stated, "Extensions/Helper/Utilities" is such a great bin to put things into, right?
 
-I have experienced this many times in my career, in many codebases, and I have come to believe that it can stem from not fully collecting or gathering the code where it belongs. The cohesion and encapsulation of these types should be thought of, I think.  
+I have experienced this many times in my career, in many codebases, and I have come to believe that it can stem from not fully collecting or gathering the code where it belongs. The responsibilty and encapsulation of these types should be thought of, I think.  
 
 Take these methods as they are, which is part of the namespace *Rubin.Markdown.Extensions*.
 
@@ -139,7 +139,7 @@ The first thing to note is that `DownloadMarkdownFileService` is at the lowest l
 
 A second thing to consider is that someone else could later alter the extension method, perhaps causing a breaking change at runtime, which could also affect the `DownloadMarkdownFileService`.
 
-I understand that one could mitigate these issues with tests, and one should. But it doesn’t solve the issue around cohesion, I think. The code not only belongs in a closer relationship with the `DownloadMarkdownFileService`, but it also makes that type "stronger" and more solid.
+I understand that one could mitigate these issues with tests, and one should. But it doesn’t solve the issue around responsibility, I think. The code not only belongs in a closer relationship with the `DownloadMarkdownFileService`, but it also makes that type "stronger" and more solid.
 
 That has resulted in adding some code to the `DownloadMarkdownFileService` and its test pendant, but also deleting three files: two files in the extensions folder and one file in the test project.
 
@@ -159,7 +159,7 @@ Instead of working on the basis of `Uri`, I made a few changes around the `Downl
 
 Instead of working more than absolutely needed on a `Uri`, I now work on the `MarkdownFile` type. Perhaps this is even more positive encapsulation.
 
-This is what the `DownloadMarkdownFileService` type looked like before I refactored it toward better encapsulation and cohesion. I have left out unimportant code for now.
+This is what the `DownloadMarkdownFileService` type looked like before I refactored it toward better encapsulation and responsibiliy. I have left out unimportant code for now.
 
 ```
 public class DownloadMarkdownFileService : IDownloadMarkdownFile
@@ -255,6 +255,6 @@ public class DownloadMarkdownFileService : IDownloadMarkdownFile
 }
 ```
 
-I am happy with the result. I didn’t sacrifice much but I like the approach better than the original. The point is not the code per se, but that I should always apply thought to what is an extensible type (or helper and utilities) and what is supposed to be closer to the actual type I am working on (in this cas it was the `Uri`). 
+I am happy with the result. I didn’t sacrifice much but I like the approach better than the original. The point is not the code per se, but that I should always apply thought to what is an extensible type (or helper and utilities) and what is supposed to be closer to the actual type I am working on. In this cas it was the `Uri` but made better sense to also adjust the surrounding types.  
 
 [You can find the whole commit and changes here](https://github.com/Danielovich/RubinStatic/commit/fa5224e141f0adfa5ed9a04d0e8ecd8841b51044).

@@ -45,47 +45,49 @@ But I can also explain why, since I am quite aware of how my mental juggling wor
 
 And it underlines and shows to me how I go about programming. It is in iterations, and sometimes I'm simply not good enough to capture or being aware of everything. Then, luckily, I can get back and iterate again.
 
-At the time of writing, I have [five files in the Extensions directory](https://github.com/Danielovich/RubinStatic/tree/main/src/Rubin.Markdown/Extensions). It’s the directory in that small project that holds the most files. That’s not good enough for the whatever standard I wish to adhere to, but it also tells the story of not believing in myself for everything I do or don’t do.
+At the time of writing, I have [five files in the Extensions directory](https://github.com/Danielovich/RubinStatic/tree/main/src/Rubin.Markdown/Extensions). It’s the directory in that small project that holds the most files. It sort of left me with a "there is something off" feeling, but it also tells the story of not believing in my own standards for everything I do or don’t do. Heck, I could have left it alone and just pumped more extensions in there over time. But no.
 
 I can’t remember why I wrote the initial method like I did, but as I just stated, "Extensions/Helper/Utilities" is such a great bin to put things into, right?
 
-I have experienced this many times in my career, in many codebases, and I have come to believe that it can stem from not fully collecting or gathering the code where it belongs. The cohesion and encapsulation of these types should be thought of, I think. 
+I have experienced this many times in my career, in many codebases, and I have come to believe that it can stem from not fully collecting or gathering the code where it belongs. The cohesion and encapsulation of these types should be thought of, I think.  
 
-Take the method as it is, which is part of the namespace *Rubin.Markdown.Extensions*.
+Take these methods as they are, which is part of the namespace *Rubin.Markdown.Extensions*.
 
 ```
-public static IEnumerable<Uri> ByValidFileExtensions(
-    this IEnumerable<Uri> uris, string[] validExtensions)
+public static class UriExtensions
 {
-    foreach (var uri in uris)
+    public static IEnumerable<Uri> ByValidFileExtensions(this IEnumerable<Uri> uris, string[] validExtensions)
     {
-        for (var i = 0; i < validExtensions.Length; i++)
+        foreach (var uri in uris)
         {
-            if (validExtensions[i] == uri.GetFileExtension())
+            for (var i = 0; i < validExtensions.Length; i++)
             {
-                yield return uri;
-                break;
+                if (validExtensions[i] == uri.GetFileExtension())
+                {
+                    yield return uri;
+                    break;
+                }
             }
         }
     }
-}
 
-public static string GetFileExtension(this Uri uri)
-{
-    if (uri == null)
+    public static string GetFileExtension(this Uri uri)
     {
+        if (uri == null)
+        {
+            return string.Empty;
+        }
+        
+        string path = uri.AbsoluteUri;
+        string fileName = Path.GetFileName(path);
+        
+        if (fileName.Contains('.'))
+        {
+            return Path.GetExtension(fileName);
+        }
+        
         return string.Empty;
     }
-    
-    string path = uri.AbsoluteUri;
-    string fileName = Path.GetFileName(path);
-    
-    if (fileName.Contains('.'))
-    {
-        return Path.GetExtension(fileName);
-    }
-    
-    return string.Empty;
 }
 ```
 

@@ -6,6 +6,8 @@
 [//]: # "categories: software"
 [//]: # "isPublished: true"
 
+*This is an article that is a little bit obnoxius really. I draw up some opionions here that I don't initially, when writing code, always comply with. But I would like to comply with at all times. But I guess that's another story.*
+
 I was listening to Jazzmatazz Vol. 1 and reading some really simple code.
 
 I remembered a talk by a former professional friend who had made a statement about arrays and performance. Another professional friend had once said, "stupid code is fast code." I was left pondering these two statements while reading the code.

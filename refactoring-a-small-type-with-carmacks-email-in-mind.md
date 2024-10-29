@@ -32,15 +32,63 @@ We can debate readability and composition all year. I'm not here to impose any d
 
 In his email, John outlines three types of compositions for a function, or a module if you prefer to extend the concept.
 
+```
+------- style A:
+ 
+void MinorFunction1( void ) {
+}
+ 
+void MinorFunction2( void ) {
+}
+ 
+void MinorFunction3( void ) {
+}
+ 
+void MajorFunction( void ) {
+        MinorFunction1();
+        MinorFunction2();
+        MinorFunction3();
+}
+ 
+--------- style B:
+ 
+void MajorFunction( void ) {
+        MinorFunction1();
+        MinorFunction2();
+        MinorFunction3();
+}
+ 
+void MinorFunction1( void ) {
+}
+ 
+void MinorFunction2( void ) {
+}
+ 
+void MinorFunction3( void ) {
+}
+ 
+ 
+---------- style C:
+ 
+void MajorFunction( void ) {
+        // MinorFunction1
+ 
+        // MinorFunction2
+ 
+        // MinorFunction3 
+}
+```
+
 He concludes with these thoughts:
 
 “Inlining code quickly runs into conflict with modularity and object-oriented programming (OOP) protections, and good judgment must be applied. The whole point of modularity is to hide details, while I advocate for increased awareness of those details. Practical factors like increased multiple checkouts of source files and including more local data in the master precompiled header, forcing more full rebuilds, must also be weighed. Currently, I lean towards using heavyweight objects as the reasonable breakpoint for combining code and reducing the use of medium-sized helper objects while keeping any very lightweight objects purely functional if they must exist at all.”
 
 The key points I take away are:
 
-"Good judgment must be applied"; you need experience and professionalism for this.
-"Practical factors..."; juggling multiple files while reading or writing code can be challenging.
-"Heavyweight objects...very lightweight objects...purely functional"; this appears to be the crux of his argument, suggesting a preference for larger objects while avoiding decomposition unless a clear breakpoint exists. Pure functions are beneficial but tricky when dealing with I/O and networking.
+- "Good judgment must be applied"; you need experience and professionalism for this.
+- "Practical factors..."; juggling multiple files while reading or writing code can be challenging.
+- "Heavyweight objects...very lightweight objects...purely functional"; this appears to be the crux of his argument, suggesting a preference for larger objects while avoiding decomposition unless a clear breakpoint exists. Pure functions are beneficial but tricky when dealing with I/O and networking.
+
 Finally, John gives this advice:
 
 “If a function is only called from a single place, consider inlining it.”

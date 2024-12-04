@@ -1,4 +1,4 @@
-[//]: # "title: A German Dog Puzzle, Recursion and Backstepping"
+[//]: # "title: A German Dog Puzzle, Recursion and Backtracking"
 [//]: # "slug: a-german-dog-puzzle-and-recursion"
 [//]: # "pubDate: 4/12/2024 12:01"
 [//]: # "lastModified: 4/12/2024 13:20"
@@ -188,7 +188,7 @@ And so, I had at least four or five iterations that ended up looking rather pecu
 
 [Ken Shirriff explains the challenge greatly on his blog about this very puzzle.](https://www.righto.com/2010/12/solving-edge-match-puzzles-with-arc-and.html) I also delved into some of [Stanford's CS106b material](https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1236/assignments/4-backtracking/tilematch), which featured a visualization of the solution - a striking depiction of where the combinations are tested and how the algorithm backsteps. Let me just say, the material available on Stanford's computer science pages is absolutely phenomenal.  
 
-![recursive rotating backstepping](images/turtles-puzzle.gif "Puzzle On Fire")
+![recursive rotating backtracking](images/turtles-puzzle.gif "Puzzle On Fire")
 
 In the meantime, as I explored what turned out to be an incredibly elegant algorithm, I managed to solve a few smaller challenges. I failed miserably at using TDD though - a method I almost can't code without - and it's been ages since that last happened. I think the issue was that I didn't have a clear enough picture of how I wanted this to look in the end. As I mentioned to myself earlier, my coding stamina was far from strong that week. I was mentally elsewhere for most of it, and when my focus is scattered, I can't produce anything meaningful.
 

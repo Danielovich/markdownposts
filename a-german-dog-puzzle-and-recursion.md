@@ -6,7 +6,7 @@
 [//]: # "categories: programming"
 [//]: # "isPublished: true"
 
-At times, programming feels like something entirely different from building software within the boundaries of monetary expectations and some external pseudo-demands. The paper before you, filled with attempts at sketching algorithms, the allure of simply understanding structures, can be captivating - and yet, the frustrations can feel completely boundless. It can cripple your inability to step back, consult books, learn from the struggles of others, and try anew. To linger into the early hours of the morning, poring over details, branching out, circling back, starting over. What a fucking mess it can be.
+At times, programming feels like something entirely different from building software within the boundaries of monetary expectations and some external pseudo-demands. The paper before you, filled with attempts at sketching algorithms, the allure of simply understanding structures, can be captivating - and yet, the frustrations can feel completely boundless. It can cripple your inability to step back, consult books, learn from the struggles of others, and try anew. To linger into the early hours of the morning, poring over details, branching out, circling back, starting over. What a horrible mess it can be.
 
 When the children are asleep, conversations seem distant, and your mind swirls with possibilities - both the challenge at hand and the one waiting just beyond it - I find myself drifting more quickly to the window. I squeeze it open, letting the late evening's cool quietly embrace me, pulling me into a mental space filled with sweet digital memories and unresolved puzzles. 
 
@@ -14,13 +14,11 @@ Dogs still bark in the hills. The moon hangs large over the cypress lining the a
 
 The heavy yellow light has returned. The Half-moon and half-streetlamp. My feel is half-knowing and half-powerless. The humble honesty of my poor self, the echo in the clatter of my keyboard, while Ferry Corsten's upbeat rhythms weave into my ears, carrying me into some mellow trance of presence and, ultimately, exhaustion. Another night like this.
 
-I've always found recursion to be equal parts amusing and frustrating. When I first encountered it in 2001, it was in connection with a tree structure I was tasked with printing on a screen - something hierarchical. Perhaps it was something as labyrinthine and finite as an organizational diagram for a government office. Fucking thing wouldn't stop printing shit on the screen.
-
-I swear here because I am actually tired. But I am alright. Tired though.
+I've always found recursion to be equal parts amusing and frustrating. When I first encountered it in 2001, it was in connection with a tree structure I was tasked with printing on a screen - something hierarchical. Perhaps it was something as labyrinthine and finite as an organizational diagram for a government office. 
 
 I remember it vividly. I spent hours agonizing over why my brain couldn't grasp why a simpler iterative loop wouldn't suffice. I couldn't solve it. I hadn't even heard of recursion before, and while it's technically possible to traverse a tree structure without a self-calling function, my mind couldn't comprehend how.
 
-I couldn't even be partly in invention of the idea that a function could call itself to arrive at a final result. I am, what do you mean by calling yourself ? Are you fucking with me ? But after all, I didn't come from a computer science background - as a kid I programmed some C64, but I was also out a lot, looking for skateboarding spots. 
+I couldn't even be partly in invention of the idea that a function could call itself to arrive at a final result. I am, what do you mean by calling yourself ? Are you kidding me ? But after all, I didn't come from a computer science background - as a kid I programmed some C64, but I was also out a lot, looking for skateboarding spots. 
 
 Being sunk into the leather chair, Lis Wessberg playing softly in the speakers, a glass of dark rum before me, I now open the dense references with joy, almost bliss, eager to sink myself into these topics. Not like the old days, when speed was necessary to survive a job, but now, it's for the sheer pleasure of understanding - slowly.
 
@@ -245,7 +243,41 @@ public class PuzzleSolver
 
     private bool PlaceTile(int row, int column)
     {
-        //...
+        if (row == 3) // base case, solved!
+        {
+            return true;
+        }
+        
+        int nextRow = NextRow(column, row);
+        int nextColumn = NextColumn(column);
+
+        for (int i = 0; i < Tiles.Length; i++)
+        {
+            if (usedTiles[i])
+            {
+                continue;
+            }
+
+            foreach (var rotatedTile in TileRotator.Rotations(Tiles[i]))
+            {
+                if (IsPlacementValid(rotatedTile, row, column))
+                {
+                    PuzzleBoard[row, column] = rotatedTile;
+                    usedTiles[i] = true;
+
+                    // next tile
+                    if (PlaceTile(nextRow, nextColumn))
+                        return true;
+
+                    // if we cannot place the tile, "undo"/backstep tile at position
+                    PuzzleBoard[row, column] = PuzzleTile.Empty;
+                    usedTiles[i] = false;
+                }
+            }
+        }
+
+        // no valid tile found. Backtracking.
+        return false;
     }
 
 
@@ -335,34 +367,84 @@ And so, I emerged from that week, not with a pristine solution, but with a deepe
 
 Sometimes, the real value isn't in finding the perfect answer but in the effort and persistence it takes to get there. The week left me with a respect for the elegance of recursion, the complexity of backtracking, and the satisfaction of tackling something that genuinely stretched my limits.
 
-I am not serving you pleasure of the final solution, simply because if that's what you came for, you are too lazy. I will though be deligthed to leave you a blueprint.
+I happily run the PuzzleSolver by initializing the 9 tiles. One thing I probably do not need is the while loop, but I am actually not confident ?
 
 ```
-private bool PlaceTile(int row, int column)
+public class Program
 {
-    if (row == 3) // base case, solved!
+    public static void PrintSolution(PuzzleTile[,] Grid)
     {
-        return true;
-    }
-    
-    int nextRow = NextRow(column, row);
-    int nextColumn = NextColumn(column);
-    
-    for (int i = 0; i < Tiles.Length; i++)
-    {
-        if (usedTiles[i])
+        var output = new StringBuilder();
+
+        //rows
+        for (int i = 0; i < 3; i++) 
         {
-            continue;
-        }
-        
-        foreach (var rotatedTile in TileRotator.Rotations(Tiles[i]))
-        {
-            if (IsPlacementValid(rotatedTile, row, column))
+            // first row
+            for (int j = 0; j < 3; j++)
             {
-                //your turn...
+                output.Append($"   {Grid[i, j].top}   ");
+                output.Append(" ");
             }
+            output.AppendLine();
+
+            // second row
+            for (int j = 0; j < 3; j++)
+            {
+                output.Append($"{Grid[i, j].left}    {Grid[i, j].right}");
+                output.Append(" ");
+            }
+            output.AppendLine();
+
+            // third row
+            for (int j = 0; j < 3; j++)
+            {
+                output.Append($"   {Grid[i, j].bottom}   ");
+                output.Append(" ");
+            }
+
+            //spacers
+            output.AppendLine();
+        }
+
+        Console.WriteLine(output.ToString());
+    }
+
+    public static void Main()
+    {
+        var gamePieces = new List<PuzzleTile>
+        {
+            new PuzzleTile("BH", "GH", "UT", "SH"), // Brown head, grey head, umber tail, spotted tail
+            new PuzzleTile("BH", "SH", "BT", "UT"), // Brown head, spotted head, brown tail, umber tail
+            new PuzzleTile("BH", "SH", "GT", "UT"), // Brown head, spotted head, grey tail, umber tail (duplicate)
+            new PuzzleTile("BH", "SH", "GT", "UT"), // Brown head, spotted head, grey tail, umber tail (duplicate)
+            new PuzzleTile("BH", "UH", "ST", "GT"), // Brown head, umber head, spotted tail, grey tail
+            new PuzzleTile("GH", "BH", "ST", "UT"), // Grey head, brown head, spotted tail, umber tail
+            new PuzzleTile("GH", "SH", "BT", "UT"), // Grey head, spotted head, brown tail, umber tail
+            new PuzzleTile("GH", "UH", "BT", "ST"), // Grey head, umber head, brown tail, spotted tail
+            new PuzzleTile("GH", "UH", "GT", "ST")  // Grey head, umber head, grey tail, spotted tail
+        };
+
+        bool solutionFound = false;
+
+        while (!solutionFound)
+        {
+            var shuffledPieces = TileShuffler.Shuffle(gamePieces);
+            var solver = new PuzzleSolver(shuffledPieces);
+
+            Console.WriteLine("Solve the Puzzle...");
+            solutionFound = solver.Solve();
+
+            if (solutionFound)
+            {
+                PrintSolution(solver.PuzzleBoard);
+            }
+            else
+            {
+                Console.WriteLine("Back to square (□) 1...");
+            }
+
+            Console.WriteLine(Environment.NewLine);
         }
     }
-    return false;
 }
 ```

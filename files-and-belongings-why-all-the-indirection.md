@@ -1,4 +1,4 @@
-[//]: # "title: Files and belongings, hy all the indirection ?"
+[//]: # "title: Files and belongings, why all the indirection ?"
 [//]: # "slug: files-and-belongings-why-all-the-indirection"
 [//]: # "pubDate: 20/1/2025 16:57"
 [//]: # "lastModified: 20/1/2025 16:57"

@@ -32,7 +32,7 @@ Some code is not touched much after it has been written - so why apply too much 
 
 It is very important to me, for the reader to understand, that I am not advocating for this as an approach you should adopt - nor even as an approach I would consistently follow. But I do hope this can make you think just a little more about how you approach the code you're writing and, in the end, the software you are responsible for as its caretaker. Do not take what I am writing at face value - I am validating my own chain of thoughts here.
 
-### The codebase of an API integration.
+### The codebase of an API integration
 
 I am going to lay out two different styles, one of which I find more commonly used than the other. You can determine for yourself what you think, but don't blame the messenger - add your own validation.
 

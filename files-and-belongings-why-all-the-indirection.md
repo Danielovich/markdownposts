@@ -36,7 +36,6 @@ It is very important to me, for the reader to understand, that I am not advocati
 
 I am going to lay out two different styles, one of which I find more commonly used than the other. You can determine for yourself what you think, but don't blame the messenger - add your own validation.
 
-Codebase 1:
 
 ```
 AirBnbApi
@@ -64,7 +63,7 @@ Personally, I dislike names such as `Extensions`, `Helpers`, `Utilities`, `Commo
 
 So, in this codebase, I could argue that if the code inside `FormattingConstants.cs` has formatting methods closely related to `AirbnbClientService.cs`, those methods could just as easily live inside that type.
 
-Let's say that the `AirbnbClientService.cs` file is structured as follows: 
+Let's say that the `AirbnbClientService.cs` file is started as the following: 
 
 ```
 public class AirbnbClientService : IAirbnbClientService
